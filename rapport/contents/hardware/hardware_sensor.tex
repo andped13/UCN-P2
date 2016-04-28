@@ -1,1 +1,10 @@
 \section{Sensor}
+Sensoren der anvedes er en "Line Sensor Breakout - QRE1113" fra sparkfun.com. Det er en analog sensor som sidder på et breakout board i en spændingsdeling. Dette betyder at der blot skal aflæses spænding på en pin for at få en værdi der svare til en lysstyrke fra sensoren.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.3\textwidth]{figures/lyssensor.png}
+\end{figure}
+
+For at kunne anvende lyssensoren med en arduino skal der ikke anvendes meget kode. Sensoren sidder i en spændingsdeling og outputtet fra lyssensoren bliver tilkoblet en pin på arudinoen. Så skal der blot foretages en analog måling med ADC'en på arduoen. 
+Dette gøres ved at bruge analogRead() i softwaren.

@@ -48,3 +48,7 @@ Temporary Items
 rapport/rapport.log
 rapport/rapport.pdf
 rapport/rapport.synctex.gz
+rapport/rapport.synctex.gz(busy)
+*.pdf
+rapport/rapport.aux
+rapport/rapport.pdf
