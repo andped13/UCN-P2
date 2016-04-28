@@ -1,0 +1,64 @@
+%implementing document formatting:
+\input{settings/preamble.tex}
+\input{settings/commands.tex}
+\begin{document}
+\input{lists/glossary.tex}
+\renewcommand\chaptername{Kapitel}
+\renewcommand\contentsname{Indholdsfortegnelse}
+\renewcommand\figurename{Figur}
+\renewcommand\tablename{Tabel} 
+
+%implementing front page:
+\input{contents/formalities/frontpage.tex}
+%clears one or two pages to make the document start on right hand side:
+\cleardoublepage
+
+%numbers the pages with Roman numeral - starts from "i":
+\frontmatter
+
+%implementing title sheet:
+\input{contents/formalities/titleSheet.tex}
+\input{contents/formalities/preface.tex}
+
+\cleardoublepage
+
+%the '*' allows the tableofcontents be excepted from the actual table of contents.
+\tableofcontents*
+\newpage
+\printnomenclature
+\renewcommand*\listfigurename{Figurliste}
+\renewcommand*\listtablename{Tabelliste}
+
+%numbers the pages with Arabic numeral - starts from 1.
+\mainmatter
+\chapter{Foranalyse}
+\input{contents/foranalyse/indledning.tex}
+\input{contents/foranalyse/linetrack.tex}
+
+\chapter{Kravspecifikation}
+\input{contents/kravspecifikation.tex}
+
+\chapter{Hardware}
+\input{contents/hardware/main.tex}
+
+\chapter{Software}
+\input{contents/software/main.tex}
+
+\chapter{Test}
+\input{contents/test.tex}
+
+\chapter{Konklusion}
+\input{contents/konklusion.tex}
+
+\chapter{Perspektivering}
+\input{contents/perspektivering.tex}
+\newpage
+\listoffigures
+\addtocontents{lof}{~\hfill\textbf{Page}\par}
+\newpage
+\listoftables
+\addtocontents{lot}{~\hfill\textbf{Page}\par}
+\newpage
+\printbibliography
+\listoffixmes
+\end{document}

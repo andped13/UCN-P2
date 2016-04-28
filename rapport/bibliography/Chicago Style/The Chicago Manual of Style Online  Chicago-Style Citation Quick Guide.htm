@@ -1,0 +1,813 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Last modified: 22 Aug 2006 -->
+<html><head>
+<title>The Chicago Manual of Style Online: Chicago-Style Citation Quick Guide</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="The%20Chicago%20Manual%20of%20Style%20Online%20%20Chicago-Style%20Citation%20Quick%20Guide_files/CMOS16_style.css" type="text/css">
+<script type="text/javascript" src="The%20Chicago%20Manual%20of%20Style%20Online%20%20Chicago-Style%20Citation%20Quick%20Guide_files/CMS_script.js"></script>
+<!--[if IE]>
+<style type="text/css">
+@import url("css/ie16.css");
+</style>
+<![endif]-->
+<style type="text/css">
+
+#main_content h5 {
+  margin: 6px 0 0 0;
+}
+/*body.aux #main_content h4 {
+  margin-top: 14px;
+}
+#main_content p.h5 {
+  margin-top: -16px;
+}
+#main_content h5.h4 {
+  margin-top: 14px;
+}
+body.aux #main_content h5 + p {
+  margin-top: -20px;
+}
+body.aux #main_content div + h4 {
+  margin-top: 14px;
+}
+body.aux #main_content div + p {
+  margin-top: 14px;
+}
+body.aux #main_content p + div {
+  margin-top: 14px;
+}
+body.aux #main_content div + h4 {
+  margin-top: 14px;
+}
+body.aux #main_content h4 + div {
+  margin-top: 14px;
+}
+body.aux #main_content h4 + p {
+  margin-top: 0px;
+}
+body.aux #main_content h4 + h5 {
+  margin-top: 14px;
+}
+body.aux #main_content div.example + h5 {
+  margin-top: 14px;
+}
+body.aux #main_content h5 + div.example {
+  margin-top: 14px;
+}*/
+
+#author-date-list.closed, #notes-bibliography-list.closed { display:none; }
+#author-date-list.open, #notes-bibliography-list.open { display:block;}
+</style>
+
+<meta name="keywords" content="chicago-style citation quick guide, tools, chicago, manual, style, edit, copyedit, writing">
+<meta name="description" content="Chicago-Style Citation Quick Guide. Tools for writers and editors from the Web site for The Chicago Manual of Style.">
+<script type="text/javascript" language="JavaScript">
+       previous = "notes-bibliography";
+
+       function openMostTab(id){
+       if (document.getElementById) {
+
+               var mostboxname = id + "-list";
+               mostboxobj=document.getElementById(mostboxname);
+               mostboxobj.className='open';
+
+               mosttabobj=document.getElementById(id);
+               mosttabobj.className=(mostboxobj.className=='closed')?'off':'on';
+
+               var x;
+               var menus = new Array ("notes-bibliography","author-date");
+               for (x in menus)
+               {
+                   if (!(menus[x]==id)) {
+                       mosttabobj=document.getElementById( menus[x] );
+                       mosttabobj.className='off';
+                       var mostboxname = menus[x] + "-list";
+                       mostboxobj=document.getElementById(mostboxname);
+                       mostboxobj.className='closed';
+                   }
+
+		   /* This does not seem to work with rollover enabled. */
+		   /*if ( id != previous )
+		   {
+		     var img = document.getElementById( menus[x] ).childNodes[0];
+		     var src = img.src;
+
+		     if ( src.indexOf( '_OFF.' ) != -1 )
+		     {
+		       img.src = src.replace( /_OFF./, '_ON.');
+		     }
+		     else
+		     {
+		       img.src = src.replace( /_ON./, '_OFF.');
+		     }
+		   }*/
+	       }
+
+	       /** Seems only way to get rollovers to work */
+	       if ( ( id != previous ) && 'notes-bibliography' == id )
+	       {
+		 var node = document.getElementById( 'notes-bibliography' );
+		 node.removeChild( node.childNodes[0] );
+		 var img = new Image();
+		 img.src = 'images/notes_biblio_ON.gif';
+		 node.appendChild( img );
+
+		 node = document.getElementById( 'author-date' );
+		 node.removeChild( node.childNodes[0] );
+		 img = new Image();
+		 img.src = 'images/author_date_OFF.gif';
+		 img.onmouseover = function() { this.src = 'images/author_date_ON.gif'; }
+                 img.onmouseout = function() { this.src = 'images/author_date_OFF.gif'; }
+		 node.appendChild( img );
+	       }
+	       else if ( ( id != previous ) && 'author-date' == id )
+	       {
+		 var node = document.getElementById( 'notes-bibliography' );
+		 node.removeChild( node.childNodes[0] );
+		 var img = new Image();
+		 img.src = 'images/notes_biblio_OFF.gif';
+		 img.onmouseover = function() { this.src = 'images/notes_biblio_ON.gif'; }
+                 img.onmouseout = function() { this.src = 'images/notes_biblio_OFF.gif'; }
+		 node.appendChild( img );
+
+		 node = document.getElementById( 'author-date' );
+		 node.removeChild( node.childNodes[0] );
+		 img = new Image();
+		 img.src = 'images/author_date_ON.gif';
+		 node.appendChild( img );
+	       }
+
+	       previous = id;
+               return false;
+       }
+}
+</script>
+</head>
+<body class="aux">
+
+<div id="site_wrapper"><a name="top"></a>
+  <link rel="shortcut icon" type="image/x-icon" href="http://www.chicagomanualofstyle.org/favicon.ico">
+<link rel="icon" type="image/x-icon" href="http://www.chicagomanualofstyle.org/favicon.ico">
+
+<link rel="shortcut icon" type="image/x-icon" href="http://www.chicagomanualofstyle.org/favicon.gif">
+<link rel="icon" type="image/x-icon" href="http://www.chicagomanualofstyle.org/favicon.gif">
+
+
+<div id="header">
+
+<div id="logo">
+    <a href="http://www.chicagomanualofstyle.org/home.html"><img src="The%20Chicago%20Manual%20of%20Style%20Online%20%20Chicago-Style%20Citation%20Quick%20Guide_files/CMOS_title.gif" alt="The Chicago Manual of Style Online"></a>
+</div>
+
+<div id="top_nav">
+    <ul>
+      <li><a href="http://www.chicagomanualofstyle.org/home.html"><img onsrc="http://www.chicagomanualofstyle.org/images/home_ON.gif" offsrc="http://www.chicagomanualofstyle.org/images/home_OFF.gif" class="rollover" src="The%20Chicago%20Manual%20of%20Style%20Online%20%20Chicago-Style%20Citation%20Quick%20Guide_files/home_OFF.gif" alt="Home"></a></li>
+	<li class="spacer"><img src="The%20Chicago%20Manual%20of%20Style%20Online%20%20Chicago-Style%20Citation%20Quick%20Guide_files/spacer.gif" alt="Spacer"></li>
+      <li><a href="http://www.chicagomanualofstyle.org/16/contents.html"><img onsrc="http://www.chicagomanualofstyle.org/images/manual_ON.gif" offsrc="http://www.chicagomanualofstyle.org/images/manual_OFF.gif" class="rollover" src="The%20Chicago%20Manual%20of%20Style%20Online%20%20Chicago-Style%20Citation%20Quick%20Guide_files/manual_OFF.gif" alt="The Chicago Manual of Style"></a></li>
+	<li class="spacer"><img src="The%20Chicago%20Manual%20of%20Style%20Online%20%20Chicago-Style%20Citation%20Quick%20Guide_files/spacer.gif" alt="Spacer"></li>
+        <li><a href="http://www.chicagomanualofstyle.org/forum.html"><img onsrc="http://www.chicagomanualofstyle.org/images/forum_ON.gif" offsrc="http://www.chicagomanualofstyle.org/images/forum_OFF.gif" class="rollover" src="The%20Chicago%20Manual%20of%20Style%20Online%20%20Chicago-Style%20Citation%20Quick%20Guide_files/forum_OFF.gif" alt="Forum"></a></li>
+        <li class="spacer"><img src="The%20Chicago%20Manual%20of%20Style%20Online%20%20Chicago-Style%20Citation%20Quick%20Guide_files/spacer.gif" alt="Spacer"></li>
+        <li><a href="http://www.chicagomanualofstyle.org/qanda/latest.html"><img onsrc="http://www.chicagomanualofstyle.org/images/QA_ON.gif" offsrc="http://www.chicagomanualofstyle.org/images/QA_OFF.gif" class="rollover" src="The%20Chicago%20Manual%20of%20Style%20Online%20%20Chicago-Style%20Citation%20Quick%20Guide_files/QA_OFF.gif" alt="Chicago Style Q&amp;A"></a></li>
+	<li class="spacer"><img src="The%20Chicago%20Manual%20of%20Style%20Online%20%20Chicago-Style%20Citation%20Quick%20Guide_files/spacer.gif" alt="Spacer"></li>
+	<li><a href="http://www.chicagomanualofstyle.org/tools.html"><img class="rollover" src="The%20Chicago%20Manual%20of%20Style%20Online%20%20Chicago-Style%20Citation%20Quick%20Guide_files/tools_ON.gif" alt="Tools"></a></li>
+        <li class="spacer"><img src="The%20Chicago%20Manual%20of%20Style%20Online%20%20Chicago-Style%20Citation%20Quick%20Guide_files/spacer.gif" alt="Spacer"></li>
+      <li><a href="http://www.chicagomanualofstyle.org/help.html"><img onsrc="http://www.chicagomanualofstyle.org/images/help_ON.gif" offsrc="http://www.chicagomanualofstyle.org/images/help_OFF.gif" class="rollover" src="The%20Chicago%20Manual%20of%20Style%20Online%20%20Chicago-Style%20Citation%20Quick%20Guide_files/help_OFF.gif" alt="Help"></a></li>
+    </ul>
+  </div>
+<div id="search">
+	<form action="http://www.chicagomanualofstyle.org/search.epl" method="get">
+        <input name="q" id="q" size="25" type="text">
+	<!--<input type="hidden" name="site" value="cmslive|qalive">-->
+	<input name="site" value="all" type="hidden">
+	<input name="client" value="live" type="hidden">
+	<input name="output" value="xml_no_dtd" type="hidden">
+	<!--<input type="hidden" name="proxystylesheet" value="live">-->
+	<input name="proxystylesheet" value="cmosdev" type="hidden">
+        <input name="filter" value="0" type="hidden">
+	<input name="search" src="The%20Chicago%20Manual%20of%20Style%20Online%20%20Chicago-Style%20Citation%20Quick%20Guide_files/search.gif" alt="Search" value="" type="image">
+
+	<!--<div class="search_radio_button">
+		<input type="radio" name="search_edition" value="15"  >&nbsp;15th edition&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="search_edition" value="16"  checked >&nbsp;16th edition</div>
+	-->
+
+		<div class="search_radio_button">
+		<table>
+		<tbody><tr>
+		<td><input name="search_edition" value="16" checked="checked" type="radio"></td><td>16th edition</td>
+                <td><input style="color: blue;" name="search_edition" value="15" type="radio"></td><td>15th edition</td>
+		</tr></tbody></table>
+		</div>
+
+
+      </form>
+  </div>
+
+</div>
+<div id="content_wrapper">
+    <div id="navigation">
+      <ul id="part_1">
+      <li><a href="http://www.chicagomanualofstyle.org/tools.html">Manuscript<br>Preparation</a></li>
+      <li><a href="http://www.chicagomanualofstyle.org/tools_corresp.html">Sample Correspondence</a></li>
+      <li><a href="http://www.chicagomanualofstyle.org/tools_proof.html">Proofreading</a></li>
+      <li><a href="http://www.chicagomanualofstyle.org/tools_workflow.html">XML Workflow<br>Diagram</a></li>
+      <li><a class="selected" href="http://www.chicagomanualofstyle.org/tools_citationguide.html">Chicago-Style<br>Citation<br>Quick Guide</a></li>
+      </ul>
+    </div>
+<div id="account">
+<a href="http://www.chicagomanualofstyle.org/access/intercept.epl?request=myaccount">Account Administration</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.chicagomanualofstyle.org/access/intercept.epl?request=login">Log In</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://cdcshoppingcart.uchicago.edu/Cart/Cart.aspx?PRESS=cmos">Shopping Cart</a></div>
+
+<div id="main_content">
+      <h2>Chicago-Style Citation Quick Guide</h2>
+      <p><i>The Chicago Manual of Style</i> presents two basic 
+documentation systems: (1) notes and bibliography and (2) author-date. 
+Choosing between the two often depends on subject matter and the nature 
+of sources cited, as each system is favored by different groups of 
+scholars.</p>
+      <p>The notes and bibliography style is preferred by many in the 
+humanities, including those in literature, history, and the arts. This 
+style presents bibliographic information in notes and, often, a 
+bibliography. It accommodates a variety of sources, including esoteric 
+ones less appropriate to the author-date system.</p>
+      <p>The author-date system has long been used by those in the 
+physical, natural, and social sciences. In this system, sources are 
+briefly cited in the text, usually in parentheses, by author’s last name
+ and date of publication. The short citations are amplified in a list of
+ references, where full bibliographic information is provided.</p>
+      <p>Aside from the use of notes versus parenthetical references in 
+the text, the two systems share a similar style. Click on the tabs below
+ to see some common examples of materials cited in each style, including
+ examples of common electronic sources. For numerous specific examples, 
+see <a href="http://www.chicagomanualofstyle.org/16/ch14/ch14_toc.html">chapters 14</a> and <a href="http://www.chicagomanualofstyle.org/16/ch15/ch15_toc.html">15</a> of the 16th edition of <i>The Chicago Manual of Style</i>. </p>
+
+
+<div id="citation_tabs">
+<ul>
+<li><img src="The%20Chicago%20Manual%20of%20Style%20Online%20%20Chicago-Style%20Citation%20Quick%20Guide_files/tab-spacer.gif" alt="Spacer"></li>
+<li><a id="notes-bibliography" class="on" href="javascript:void(0);" onclick="return openMostTab('notes-bibliography');" style="border-bottom: none;"><img class="rollover" src="The%20Chicago%20Manual%20of%20Style%20Online%20%20Chicago-Style%20Citation%20Quick%20Guide_files/notes_biblio_ON.gif" alt="Notes and Bibliography"></a></li>
+<li><img src="The%20Chicago%20Manual%20of%20Style%20Online%20%20Chicago-Style%20Citation%20Quick%20Guide_files/tab-spacer.gif" alt="Spacer"></li>
+<li><a id="author-date" class="off" href="javascript:void(0);" onclick="return openMostTab('author-date');" style="border-bottom: none;"><img onsrc="http://www.chicagomanualofstyle.org/images/author_date_ON.gif" offsrc="http://www.chicagomanualofstyle.org/images/author_date_OFF.gif" class="rollover" src="The%20Chicago%20Manual%20of%20Style%20Online%20%20Chicago-Style%20Citation%20Quick%20Guide_files/author_date_OFF.gif" alt="Author-Date"></a></li>
+<li><img src="The%20Chicago%20Manual%20of%20Style%20Online%20%20Chicago-Style%20Citation%20Quick%20Guide_files/tab-spacer.gif" alt="Spacer"></li>
+</ul>
+</div>
+
+  <div id="notes-bibliography-list" class="open">
+    <h3>Notes and Bibliography: Sample Citations</h3>
+    <p>The following examples illustrate citations using the notes and 
+bibliography system. Examples of notes are followed by shortened 
+versions of citations to the same source. For more details and many more
+ examples, see <a href="http://www.chicagomanualofstyle.org/16/ch14/ch14_toc.html">chapter 14</a> of <i>The Chicago Manual of Style</i>. For examples of the same citations using the author-date system, click on the Author-Date tab above.</p>
+    <h4>Book</h4>
+    <h5 class="h4">One author</h5>
+
+       	<p>   
+           </p><div class="example">
+           <div class="lineatedTextIndent">1. Michael Pollan, <i>The Omnivore’s Dilemma: A Natural History of Four Meals</i> (New York: Penguin, 2006), 99–100.</div>
+           <div class="lineatedTextIndent">2. Pollan, <i>Omnivore’s Dilemma</i>, 3.</div>
+           </div>
+       	<p></p>
+	<p></p><div class="example"><div class="lineatedText">Pollan, Michael. <i>The Omnivore’s Dilemma: A Natural History of Four Meals</i>. New York: Penguin, 2006.</div></div><p></p>
+
+    <h5>Two or more authors</h5>
+
+        <p>       
+           </p><div class="example">
+           <div class="lineatedTextIndent">1. Geoffrey C. Ward and Ken Burns, <i>The War: An Intimate History, 1941–1945</i> (New York: Knopf, 2007), 52.</div>
+           <div class="lineatedTextIndent">2. Ward and Burns, <i>War</i>, 59–61.</div>
+           </div>
+        <p></p>
+
+        <p></p><div class="example"><div class="lineatedText">Ward, Geoffrey C., and Ken Burns. <i>The War: An Intimate History, 1941–1945</i>. New York: Knopf, 2007.</div></div><p></p>
+
+      <p>For four or more authors, list all of the authors in the bibliography; in the note, list only the first author, followed by <i>et al</i>. (“and others”):</p>
+
+        <p>       
+           </p><div class="example">
+           <div class="lineatedTextIndent">1. Dana Barnes et al., <i>Plastics: Essays on American Corporate Ascendance in the 1960s</i> <nobr>. . .</nobr></div>
+           <div class="lineatedTextIndent">2. Barnes et al., <i>Plastics</i> <nobr>. . .</nobr></div>
+           </div>
+        <p></p>
+
+    <h5>Editor, translator, or compiler instead of author</h5>
+
+        <p>       
+           </p><div class="example">
+           <div class="lineatedTextIndent">1. Richmond Lattimore, trans., <i>The Iliad of Homer</i> (Chicago: University of Chicago Press, 1951), 91–92.</div>
+           <div class="lineatedTextIndent">2. Lattimore, <i>Iliad</i>, 24.</div>
+           </div>
+        <p></p>
+
+        <p></p><div class="example"><div class="lineatedText">Lattimore, Richmond, trans. <i>The Iliad of Homer</i>. Chicago: University of Chicago Press, 1951.</div></div><p></p>
+
+      <h5>Editor, translator, or compiler in addition to author</h5>
+
+        <p>       
+           </p><div class="example">
+           <div class="lineatedTextIndent">1. Gabriel García Márquez, <i>Love in the Time of Cholera</i>, trans. Edith Grossman (London: Cape, 1988), 242–55.</div>
+           <div class="lineatedTextIndent">2. García Márquez, <i>Cholera</i>, 33.</div>
+           </div>
+        <p></p>
+
+          <p></p><div class="example"><div class="lineatedText">García Márquez, Gabriel. <i>Love in the Time of Cholera</i>. Translated by Edith Grossman. London: Cape, 1988.</div></div><p></p>
+
+    <h5>Chapter or other part of a book</h5>
+
+        <p>       
+           </p><div class="example">
+           <div class="lineatedTextIndent">1. John D. Kelly, “Seeing Red: Mao Fetishism, Pax Americana, and the Moral Economy of War,” in <i>Anthropology and Global Counterinsurgency</i>, ed. John D. Kelly et al. (Chicago: University of Chicago Press, 2010), 77.</div>
+           <div class="lineatedTextIndent">2. Kelly, “Seeing Red,” 81–82.</div>
+           </div>
+        <p></p>
+
+        <p></p><div class="example"><div class="lineatedText">Kelly, John D. “Seeing Red: Mao Fetishism, Pax Americana, and the Moral Economy of War.” In <i>Anthropology and Global Counterinsurgency</i>,
+ edited by John D. Kelly, Beatrice Jauregui, Sean T. Mitchell, and 
+Jeremy Walton, 67–83. Chicago: University of Chicago Press, 2010.</div></div><p></p>
+
+    <h5>Chapter of an edited volume originally published elsewhere (as in primary sources)</h5>
+
+        <p>       
+           </p><div class="example">
+           <div class="lineatedTextIndent">1. Quintus Tullius Cicero, “Handbook on Canvassing for the Consulship,” in <i>Rome: Late Republic and Principate</i>, ed. Walter Emil Kaegi Jr. and Peter White, vol. 2 of <i>University of Chicago Readings in Western Civilization</i>, ed. John Boyer and Julius Kirshner (Chicago: University of Chicago Press, 1986), 35.</div>
+           <div class="lineatedTextIndent">2. Cicero, “Canvassing for the Consulship,” 35.</div>
+           </div>
+        <p></p>
+
+        <p></p><div class="example"><div class="lineatedText">Cicero, Quintus Tullius. “Handbook on Canvassing for the Consulship.” In <i>Rome: Late Republic and Principate</i>, edited by Walter Emil Kaegi Jr. and Peter White. Vol. 2 of <i>University of Chicago Readings in Western Civilization</i>,
+ edited by John Boyer and Julius Kirshner, 33–46. Chicago: University of
+ Chicago Press, 1986. Originally published in Evelyn S. Shuckburgh, 
+trans., <i>The Letters of Cicero</i>, vol. 1 (London: George Bell &amp; Sons, 1908).</div></div><p></p>
+
+    <h5>Preface, foreword, introduction, or similar part of a book</h5>
+
+        <p>       
+           </p><div class="example">
+           <div class="lineatedTextIndent">1. James Rieger, introduction to <i>Frankenstein; or, The Modern Prometheus</i>, by Mary Wollstonecraft Shelley (Chicago: University of Chicago Press, 1982), xx–xxi.</div>
+	   <div class="lineatedTextIndent">2. Rieger, introduction, xxxiii.</div>
+           </div>
+        <p></p>
+
+        <p></p><div class="example"><div class="lineatedText">Rieger, James. Introduction to <i>Frankenstein; or, The Modern Prometheus</i>, by Mary Wollstonecraft Shelley, xi–xxxvii. Chicago: University of Chicago Press, 1982.</div></div><p></p>
+
+    <h5>Book published electronically</h5>
+
+      <p class="h5">If a book is available in more than one format, cite
+ the version you consulted. For books consulted online, list a URL; 
+include an access date only if one is required by your publisher or 
+discipline. If no fixed page numbers are available, you can include a 
+section title or a chapter or other number.</p>
+
+        <p>       
+           </p><div class="example">
+           <div class="lineatedTextIndent">1. Jane Austen, <i>Pride and Prejudice</i> (New York: Penguin Classics, 2007), Kindle edition.</div>
+           <div class="lineatedTextIndent">2. Philip B. Kurland and Ralph Lerner, eds., <i>The Founders’ Constitution</i> (Chicago: University of Chicago Press, 1987), accessed February 28, 2010, http://press-pubs.uchicago.edu/founders/.</div>
+	   <div class="lineatedTextIndent">3. Austen, <i>Pride and Prejudice</i>.</div>
+	   <div class="lineatedTextIndent">4. Kurland and Lerner, <i>Founder’s Constitution</i>, chap. 10, doc. 19.</div>
+           </div>
+        <p></p>
+
+        <p></p><div class="example"><div class="lineatedText">Austen, Jane. <i>Pride and Prejudice</i>. New York: Penguin Classics, 2007. Kindle edition.</div>
+
+        <div class="lineatedText">Kurland, Philip B., and Ralph Lerner, eds. <i>The Founders’ Constitution</i>. Chicago: University of Chicago Press, 1987. Accessed February 28, 2010. http://press-pubs.uchicago.edu/founders/.</div></div><p></p>
+
+    <h4>Journal article</h4>
+
+    <h5 class="h4">Article in a print journal</h5>
+
+      <p class="h5">In a note, list the specific page numbers consulted, if any. In the bibliography, list the page range for the whole article.</p>
+
+        <p>       
+           </p><div class="example">
+           <div class="lineatedTextIndent">1. Joshua I. Weinstein, “The Market in Plato’s <i>Republic</i>,” <i>Classical Philology</i> 104 (2009): 440.</div>
+           <div class="lineatedTextIndent">2. Weinstein, “Plato’s <i>Republic</i>,” 452–53.</div>
+           </div>
+        <p></p>
+
+        <p></p><div class="example"><div class="lineatedText">Weinstein, Joshua I. “The Market in Plato’s <i>Republic</i>.” <i>Classical Philology</i> 104 (2009): 439–58.</div></div><p></p>
+
+    <h5>Article in an online journal</h5>
+
+      <p class="h5">Include a DOI (Digital Object Identifier) if the 
+journal lists one. A DOI is a permanent ID that, when appended to 
+http://dx.doi.org/ in the address bar of an Internet browser, will lead 
+to the source. If no DOI is available, list a URL. Include an access 
+date only if one is required by your publisher or discipline.</p>
+
+        <p>       
+           </p><div class="example">
+           <div class="lineatedTextIndent">1. Gueorgi Kossinets and Duncan J. Watts, “Origins of Homophily in an Evolving Social Network,” <i>American Journal of Sociology</i> 115 (2009): 411, accessed February 28, 2010, doi:10.1086/599247.</div>
+           <div class="lineatedTextIndent">2. Kossinets and Watts, “Origins of Homophily,” 439.</div>
+           </div>
+        <p></p>
+
+        <p></p><div class="example"><div class="lineatedText">Kossinets, Gueorgi, and Duncan J. Watts. “Origins of Homophily in an Evolving Social Network.” <i>American Journal of Sociology</i> 115 (2009): 405–50. Accessed February 28, 2010. doi:10.1086/599247.</div></div><p></p>
+
+    <h4>Article in a newspaper or popular magazine</h4>
+
+      <p>Newspaper and magazine articles may be cited in running text (“As Sheryl Stolberg and Robert Pear noted in a <i>New York Times</i> article on February 27, 2010, <nobr>. . .</nobr>”)
+ instead of in a note, and they are commonly omitted from a 
+bibliography. The following examples show the more formal versions of 
+the citations. If you consulted the article online, include a URL; 
+include an access date only if your publisher or discipline requires 
+one. If no author is identified, begin the citation with the article 
+title.</p><p>
+
+        </p><p>       
+           </p><div class="example">
+           <div class="lineatedTextIndent">1. Daniel Mendelsohn, “But Enough about Me,” <i>New Yorker</i>, January 25, 2010, 68.</div>
+           <div class="lineatedTextIndent">2. Sheryl Gay Stolberg and Robert Pear, “Wary Centrists Posing Challenge in Health Care Vote,” <i>New York Times</i>, February 27, 2010, accessed February 28, 2010, http://www.nytimes.com/2010/02/28/us/politics/28health.html.</div>
+           <div class="lineatedTextIndent">3. Mendelsohn, “But Enough about Me,” 69.</div>
+           <div class="lineatedTextIndent">4. Stolberg and Pear, “Wary Centrists.”</div>
+           </div>
+        <p></p>
+
+        <p></p><div class="example"><div class="lineatedText">Mendelsohn, Daniel. “But Enough about Me.” <i>New Yorker</i>, January 25, 2010.</div>
+
+        <div class="lineatedText">Stolberg, Sheryl Gay, and Robert Pear. “Wary Centrists Posing Challenge in Health Care Vote.” <i>New York Times</i>, February 27, 2010. Accessed February 28, 2010. http://www.nytimes.com/2010/02/28/us/politics/28health.html.</div></div><p></p>
+
+    <h4>Book review</h4>
+
+        <p>       
+           </p><div class="example">
+           <div class="lineatedTextIndent">1. David Kamp, “Deconstructing Dinner,” review of <i>The Omnivore’s Dilemma: A Natural History of Four Meals</i>, by Michael Pollan, <i>New York Times</i>, April 23, 2006, Sunday Book Review, http://www.nytimes.com/2006/04/23/books/review/23kamp.html.</div>
+           <div class="lineatedTextIndent">2. Kamp, “Deconstructing Dinner.”</div>
+           </div>
+        <p></p>
+
+        <p></p><div class="example"><div class="lineatedText">Kamp, David. “Deconstructing Dinner.” Review of <i>The Omnivore’s Dilemma: A Natural History of Four Meals</i>, by Michael Pollan. <i>New York Times</i>, April 23, 2006, Sunday Book Review. http://www.nytimes.com/2006/04/23/books/review/23kamp.html.</div></div><p></p>
+
+    <h4>Thesis or dissertation</h4>
+
+        <p>       
+           </p><div class="example">
+           <div class="lineatedTextIndent">1. Mihwa Choi, “Contesting <i>Imaginaires</i> in Death Rituals during the Northern Song Dynasty” (PhD diss., University of Chicago, 2008).</div>
+           <div class="lineatedTextIndent">2. Choi, “Contesting <i>Imaginaires</i>.”</div>
+           </div>
+        <p></p>
+
+        <p></p><div class="example"><div class="lineatedText">Choi, Mihwa. “Contesting <i>Imaginaires</i> in Death Rituals during the Northern Song Dynasty.” PhD diss., University of Chicago, 2008.</div></div><p></p>
+
+    <h4>Paper presented at a meeting or conference</h4>
+
+        <p>       
+           </p><div class="example">
+           <div class="lineatedTextIndent">1. Rachel Adelman, “ ‘Such 
+Stuff as Dreams Are Made On’: God’s Footstool in the Aramaic Targumim 
+and Midrashic Tradition” (paper presented at the annual meeting for the 
+Society of Biblical Literature, New Orleans, Louisiana, November 21–24, 
+2009).</div>
+           <div class="lineatedTextIndent">2. Adelman, “Such Stuff as Dreams.”</div>
+           </div>
+        <p></p>
+
+        <p></p><div class="example"><div class="lineatedText">Adelman, 
+Rachel. “ ‘Such Stuff as Dreams Are Made On’: God’s Footstool in the 
+Aramaic Targumim and Midrashic Tradition.” Paper presented at the annual
+ meeting for the Society of Biblical Literature, New Orleans, Louisiana,
+ November 21–24, 2009.</div></div><p></p>
+
+    <h4>Website</h4>
+
+      <p>A citation to website content can often be limited to a mention
+ in the text or in a note (“As of July 19, 2008, the McDonald’s 
+Corporation listed on its website <nobr>. . .</nobr>”). If a more formal
+ citation is desired, it may be styled as in the examples below. Because
+ such content is subject to change, include an access date or, if 
+available, a date that the site was last modified.</p>
+
+        <p>       
+           </p><div class="example">
+           <div class="lineatedTextIndent">1. “Google Privacy Policy,” last modified March 11, 2009, http://www.google.com/intl/en/privacypolicy.html.</div>
+           <div class="lineatedTextIndent">2. “McDonald’s Happy Meal Toy
+ Safety Facts,” McDonald’s Corporation, accessed July 19, 2008, 
+http://www.mcdonalds.com/corp/about/factsheets.html.</div>
+           <div class="lineatedTextIndent">3. “Google Privacy Policy.”</div>
+           <div class="lineatedTextIndent">4. “Toy Safety Facts.”</div>
+           </div>
+        <p></p>
+
+        <p></p><div class="example"><div class="lineatedText">Google. “Google Privacy Policy.” Last modified March 11, 2009. http://www.google.com/intl/en/privacypolicy.html.</div>
+
+        <div class="lineatedText">McDonald’s Corporation. “McDonald’s 
+Happy Meal Toy Safety Facts.” Accessed July 19, 2008. 
+http://www.mcdonalds.com/corp/about/factsheets.html.</div></div><p></p>
+
+    <h4>Blog entry or comment</h4>
+
+      <p>Blog entries or comments may be cited in running text (“In a comment posted to <i>The Becker-Posner Blog</i> on February 23, 2010, <nobr>. . .</nobr>”)
+ instead of in a note, and they are commonly omitted from a 
+bibliography. The following examples show the more formal versions of 
+the citations. There is no need to add <i>pseud</i>. after an apparently
+ fictitious or informal name. (If an access date is required, add it 
+before the URL; see examples elsewhere in this guide.)</p>
+
+        <p>       
+           </p><div class="example">
+           <div class="lineatedTextIndent">1. Jack, February 25, 2010 (7:03 p.m.), comment on Richard Posner, “Double Exports in Five Years?,” <i>The Becker-Posner Blog</i>, February 21, 2010, http://uchicagolaw.typepad.com/beckerposner/2010/02/double-exports-in-five-years-posner.html.</div>
+           <div class="lineatedTextIndent">2. Jack, comment on Posner, “Double Exports.”</div>
+           </div>
+        <p></p>
+
+        <p></p><div class="example"><div class="lineatedText"><i>Becker-Posner Blog</i>, <i>The</i>. http://uchicagolaw.typepad.com/beckerposner/.</div></div><p></p>
+
+    <h4>E-mail or text message</h4>
+
+      <p>E-mail and text messages may be cited in running text (“In a text message to the author on March 1, 2010, John Doe revealed <nobr>. . .</nobr>”)
+ instead of in a note, and they are rarely listed in a bibliography. The
+ following example shows the more formal version of a note.</p>
+
+        <p>       
+           </p><div class="example">
+           <div class="lineatedTextIndent">1. John Doe, e-mail message to author, February 28, 2010.</div>
+           </div>
+        <p></p>
+
+    <h4>Item in a commercial database</h4>
+
+      <p>For items retrieved from a commercial database, add the name of
+ the database and an accession number following the facts of 
+publication. In this example, the dissertation cited above is shown as 
+it would be cited if it were retrieved from ProQuest’s database for 
+dissertations and theses.</p>
+
+      <p></p><div class="example"><div class="lineatedText">Choi, Mihwa. “Contesting <i>Imaginaires</i> in Death Rituals during the Northern Song Dynasty.” PhD diss., University of Chicago, 2008. ProQuest (AAT 3300426).</div></div><p></p>
+
+  </div>
+  <div id="author-date-list" class="closed">
+
+    <h3>Author-Date: Sample Citations</h3>
+
+      <p>The following examples illustrate citations using the 
+author-date system. Each example of a reference list entry is 
+accompanied by an example of a corresponding parenthetical citation in 
+the text. For more details and many more examples, see <a href="http://www.chicagomanualofstyle.org/16/ch15/ch15_toc.html">chapter 15</a> of <i>The Chicago Manual of Style</i>. For examples of the same citations using the notes and bibliography system, click on the Notes and Bibliography tab above.</p>
+
+    <h4>Book</h4>
+
+    <h5 class="h4">One author</h5>
+
+      <p></p><div class="example">
+        <div class="lineatedText">Pollan, Michael. 2006. <i>The Omnivore’s Dilemma: A Natural History of Four Meals</i>. New York: Penguin.</div>
+      </div><p></p>
+
+     <p></p><div class="example">
+	<div class="lineatedText">(Pollan 2006, 99–100)</div>
+      </div><p></p>
+
+    <h5>Two or more authors</h5>
+
+      <p></p><div class="example">
+        <div class="lineatedText">Ward, Geoffrey C., and Ken Burns. 2007. <i>The War: An Intimate History</i>, 1941–1945. New York: Knopf.</div>
+      </div><p></p>
+
+      <p></p><div class="example">
+	<div class="lineatedText">(Ward and Burns 2007, 52)</div>
+      </div><p></p>
+
+      <p>For four or more authors, list all of the authors in the reference list; in the text, list only the first author, followed by <i>et al</i>. (“and others”):</p>
+
+      <p></p><div class="example">
+        <div class="lineatedText">(Barnes et al. 2010)</div>
+      </div><p></p>
+
+    <h5>Editor, translator, or compiler instead of author</h5>
+
+      <p></p><div class="example">
+        <div class="lineatedText">Lattimore, Richmond, trans. 1951. <i>The Iliad of Homer</i>. Chicago: University of Chicago Press.</div>
+      </div><p></p>
+
+     <p></p><div class="example">
+  	<div class="lineatedText">(Lattimore 1951, 91–92)</div>
+      </div><p></p>
+
+    <h5>Editor, translator, or compiler in addition to author</h5>
+
+      <p></p><div class="example">
+        <div class="lineatedText">García Márquez, Gabriel. 1988. <i>Love in the Time of Cholera</i>. Translated by Edith Grossman. London: Cape.</div>
+      </div><p></p>
+
+      <p></p><div class="example">
+  	<div class="lineatedText">(García Márquez 1988, 242–55)</div>
+      </div><p></p>
+
+    <h5>Chapter or other part of a book</h5>
+
+      <p></p><div class="example">
+        <div class="lineatedText">Kelly, John D. 2010. “Seeing Red: Mao Fetishism, Pax Americana, and the Moral Economy of War.” In <i>Anthropology and Global Counterinsurgency</i>, edited by John D. Kelly, Beatrice Jauregui, Sean T. Mitchell, and Jeremy Walton, 67–83. Chicago: University of Chicago Press.</div>
+      </div><p></p>
+
+     <p></p><div class="example">
+  	<div class="lineatedText">(Kelly 2010, 77)</div>
+      </div><p></p>
+
+    <h5>Chapter of an edited volume originally published elsewhere (as in primary sources)</h5>
+
+      <p></p><div class="example">
+        <div class="lineatedText">Cicero, Quintus Tullius. 1986. “Handbook on Canvassing for the Consulship.” In <i>Rome: Late Republic and Principate</i>, edited by Walter Emil Kaegi Jr. and Peter White. Vol. 2 of <i>University of Chicago Readings in Western Civilization</i>,
+ edited by John Boyer and Julius Kirshner, 33–46. Chicago: University of
+ Chicago Press. Originally published in Evelyn S. Shuckburgh, trans., <i>The Letters of Cicero</i>, vol. 1 (London: George Bell &amp; Sons, 1908).</div>
+      </div><p></p>
+
+     <p></p><div class="example">
+  	<div class="lineatedText">(Cicero 1986, 35)</div>
+      </div><p></p>
+
+    <h5>Preface, foreword, introduction, or similar part of a book</h5>
+      <p></p><div class="example">
+        <div class="lineatedText">Rieger, James. 1982. Introduction to <i>Frankenstein; or, The Modern Prometheus</i>, by Mary Wollstonecraft Shelley, xi–xxxvii. Chicago: University of Chicago Press.</div>
+      </div><p></p>
+
+     <p></p><div class="example">
+  	<div class="lineatedText">(Rieger 1982, xx–xxi)</div>
+      </div><p></p>
+
+    <h5>Book published electronically</h5>
+
+      <p class="h5">If a book is available in more than one format, cite
+ the version you consulted. For books consulted online, list a URL; 
+include an access date only if one is required by your publisher or 
+discipline. If no fixed page numbers are available, you can include a 
+section title or a chapter or other number.</p>
+
+      <p></p><div class="example">
+        <div class="lineatedText">Austen, Jane. 2007. <i>Pride and Prejudice</i>. New York: Penguin Classics. Kindle edition.</div>
+  	<div class="lineatedText">Kurland, Philip B., and Ralph Lerner, eds. 1987. <i>The Founders’ Constitution</i>. Chicago: University of Chicago Press. http://press-pubs.uchicago.edu/founders/.</div>
+      </div><p></p>
+
+     <p></p><div class="example">
+  	<div class="lineatedText">(Austen 2007)</div>
+  	<div class="lineatedText">(Kurland and Lerner, chap. 10, doc. 19)</div>
+      </div><p></p>
+
+    <h4>Journal article</h4>
+
+    <h5 class="h4">Article in a print journal</h5>
+
+      <p class="h5">In the text, list the specific page numbers 
+consulted, if any. In the reference list entry, list the page range for 
+the whole article.</p>
+
+      <p></p><div class="example">
+  	<div class="lineatedText">Weinstein, Joshua I. 2009. “The Market in Plato’s <i>Republic</i>.” <i>Classical Philology</i> 104:439–58.</div>
+      </div><p></p>
+
+     <p></p><div class="example">
+	<div class="lineatedText">(Weinstein 2009, 440)</div>
+      </div><p></p>
+
+    <h5>Article in an online journal</h5>
+
+      <p class="h5">Include a DOI (Digital Object Identifier) if the 
+journal lists one. A DOI is a permanent ID that, when appended to 
+http://dx.doi.org/ in the address bar of an Internet browser, will lead 
+to the source. If no DOI is available, list a URL. Include an access 
+date only if one is required by your publisher or discipline.</p>
+
+      <p></p><div class="example">
+        <div class="lineatedText">Kossinets, Gueorgi, and Duncan J. Watts. 2009. “Origins of Homophily in an Evolving Social Network.” <i>American Journal of Sociology</i> 115:405–50. Accessed February 28, 2010. doi:10.1086/599247.</div>
+      </div><p></p>
+
+     <p></p><div class="example">
+        <div class="lineatedText">(Kossinets and Watts 2009, 411)</div>
+      </div><p></p>
+
+    <h4>Article in a newspaper or popular magazine</h4>
+
+      <p>Newspaper and magazine articles may be cited in running text (“As Sheryl Stolberg and Robert Pear noted in a <i>New York Times</i> article on February 27, 2010, <nobr>. . .</nobr>”),
+ and they are commonly omitted from a reference list. The following 
+examples show the more formal versions of the citations. If you 
+consulted the article online, include a URL; include an access date only
+ if your publisher or discipline requires one. If no author is 
+identified, begin the citation with the article title.</p>
+
+      <p></p><div class="example">
+        <div class="lineatedText">Mendelsohn, Daniel. 2010. “But Enough about Me.” <i>New Yorker</i>, January 25.</div>
+  	<div class="lineatedText">Stolberg, Sheryl Gay, and Robert Pear. 2010. “Wary Centrists Posing Challenge in Health Care Vote.” <i>New York Times</i>, February 27. Accessed February 28, 2010. http://www.nytimes.com/2010/02/28/us/politics/28health.html.</div>
+      </div><p></p>
+
+     <p></p><div class="example">
+  	<div class="lineatedText">(Mendelsohn 2010, 68)</div>
+  	<div class="lineatedText">(Stolberg and Pear 2010)</div>
+      </div><p></p>
+
+    <h4>Book review</h4>
+
+      <p></p><div class="example">
+        <div class="lineatedText">Kamp, David. 2006. “Deconstructing Dinner.” Review of <i>The Omnivore’s Dilemma: A Natural History of Four Meals</i>, by Michael Pollan. <i>New York Times</i>, April 23, Sunday Book Review. http://www.nytimes.com/2006/04/23/books/review/23kamp.html.</div>
+      </div><p></p>
+
+     <p></p><div class="example">
+  	<div class="lineatedText">(Kamp 2006)</div>
+      </div><p></p>
+
+    <h4>Thesis or dissertation</h4>
+
+      <p></p><div class="example">
+        <div class="lineatedText">Choi, Mihwa. 2008. “Contesting <i>Imaginaires</i> in Death Rituals during the Northern Song Dynasty.” PhD diss., University of Chicago.</div>
+      </div><p></p>
+
+     <p></p><div class="example">
+  	<div class="lineatedText">(Choi 2008)</div>
+      </div><p></p>
+
+    <h4>Paper presented at a meeting or conference</h4>
+
+      <p></p><div class="example">
+        <div class="lineatedText">Adelman, Rachel. 2009. “ ‘Such Stuff 
+as Dreams Are Made On’: God’s Footstool in the Aramaic Targumim and 
+Midrashic Tradition.” Paper presented at the annual meeting for the 
+Society of Biblical Literature, New Orleans, Louisiana, November 21–24.</div>
+      </div><p></p>
+
+     <p></p><div class="example">
+  	<div class="lineatedText">(Adelman 2009)</div>
+      </div><p></p>
+
+    <h4>Website</h4>
+
+      <p>A citation to website content can often be limited to a mention
+ in the text (“As of July 19, 2008, the McDonald’s Corporation listed on
+ its website <nobr>. . .</nobr>”). If a more formal citation is desired,
+ it may be styled as in the examples below. Because such content is 
+subject to change, include an access date or, if available, a date that 
+the site was last modified. In the absence of a date of publication, use
+ the access date or last-modified date as the basis of the citation.</p>
+
+      <p></p><div class="example">
+        <div class="lineatedText">Google. 2009. “Google Privacy Policy.” Last modified March 11. http://www.google.com/intl/en/privacypolicy.html.</div>
+  	<div class="lineatedText">McDonald’s Corporation. 2008. “McDonald’s 
+Happy Meal Toy Safety Facts.” Accessed July 19. 
+http://www.mcdonalds.com/corp/about/factsheets.html.</div>
+      </div><p></p>
+
+     <p></p><div class="example">
+  	<div class="lineatedText">(Google 2009)</div>
+  	<div class="lineatedText">(McDonald’s 2008)</div>
+      </div><p></p>
+
+    <h4>Blog entry or comment</h4>
+
+      <p>Blog entries or comments may be cited in running text (“In a comment posted to <i>The Becker-Posner Blog</i> on February 23, 2010, <nobr>. . .</nobr>”),
+ and they are commonly omitted from a reference list. If a reference 
+list entry is needed, cite the blog post there but mention comments in 
+the text only. (If an access date is required, add it before the URL; 
+see examples elsewhere in this guide.)</p>
+
+      <p></p><div class="example">
+        <div class="lineatedText">Posner, Richard. 2010. “Double Exports in Five Years?” <i>The Becker-Posner Blog</i>, February 21. http://uchicagolaw.typepad.com/beckerposner/2010/02/double-exports-in-five-years-posner.html.</div>
+      </div><p></p>
+
+     <p></p><div class="example">
+  	<div class="lineatedText">(Posner 2010)</div>
+      </div><p></p>
+
+    <h4>E-mail or text message</h4>
+
+      <p>E-mail and text messages may be cited in running text (“In a text message to the author on March 1, 2010, John Doe revealed <nobr>. . .</nobr>”), and they are rarely listed in a reference list. In parenthetical citations, the term <i>personal communication</i> (or <i>pers. comm.</i>) can be used.</p>
+
+      <p></p><div class="example">
+        <div class="lineatedText">(John Doe, e-mail message to author, February 28, 2010)</div>
+      </div><p></p>
+
+     <p></p><div class="example">
+        <div class="lineatedText">or</div>
+      </div><p></p>
+
+     <p></p><div class="example">
+        <div class="lineatedText">(John Doe, pers. comm.)</div>
+      </div><p></p>
+
+    <h4>Item in a commercial database</h4>
+
+      <p>For items retrieved from a commercial database, add the name of
+ the database and an accession number following the facts of 
+publication. In this example, the dissertation cited above is shown as 
+it would be cited if it were retrieved from ProQuest’s database for 
+dissertations and theses.</p>
+
+      <p></p><div class="example"><div class="lineatedText">Choi, Mihwa. 2008. “Contesting <i>Imaginaires</i> in Death Rituals during the Northern Song Dynasty.” PhD diss., University of Chicago. ProQuest (AAT 3300426).</div></div><p></p>
+
+  </div>
+  </div>
+    <div class="clear">&nbsp;</div>
+  </div>
+  <div id="footer">
+    <p class="links"><a href="http://www.chicagomanualofstyle.org/about16.html">About <i>The Chicago Manual of Style</i></a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.chicagomanualofstyle.org/press.html">About
+        the University of Chicago Press</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.chicagomanualofstyle.org/termslist.html">Terms
+        of Use</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.chicagomanualofstyle.org/privacy.html">Privacy Policy</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.chicagomanualofstyle.org/sitemap.html">Site Map</a></p>
+    <p><i>The Chicago Manual of Style</i> 15th edition text © 1982, 1993, 2003 by The University of Chicago. <i>The Chicago Manual of Style</i> 16th edition text © 2010 by The University of Chicago. <i>The Chicago Manual of Style Online</i> © 2006, 2007, 2010 by The University of Chicago.</p>
+  </div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="The%20Chicago%20Manual%20of%20Style%20Online%20%20Chicago-Style%20Citation%20Quick%20Guide_files/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7684421-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</div>
+
+
+</body></html>

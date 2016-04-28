@@ -1,0 +1,89 @@
+\newcommand{\img}[4]{
+    \begin{figure}[!ht]
+    	\centering
+    		\includegraphics[width=#4\textwidth]{#1}
+    	\caption{\text{#2}}
+    	\label{#3}
+    \end{figure}
+}
+
+\newcommand{\tableimg}[3]{
+    \begin{figure}[!ht]
+    	\centering
+    		\includegraphics[width=#3\textwidth]{#1}
+    	\label{#2}
+    \end{figure}
+}
+
+\newcommand{\wrapimg}[8]{
+	\begin{wrapfigure}[10]{#5}{0.4\textwidth} \hspace{0pt}
+	\vspace{#6}
+  		\begin{center}
+   			 \includegraphics[width=#4\textwidth]{#1}
+  		\end{center}
+  		\vspace{#7}
+ 		\caption{\textbf{#2}}
+ 	 	\label{#3}
+ 	 	\vspace{#8}
+	\end{wrapfigure}
+}
+
+\newcommand{\sidebyimg}[4]{
+	\begin{figure}[H]
+		\center
+		\begin{subfigure}[b]{0.48\textwidth}
+			\includegraphics[width=\textwidth]{#1}
+			\caption{#2}
+		\end{subfigure}
+		\quad
+		\begin{subfigure}[b]{0.48\textwidth}
+			\includegraphics[width=\textwidth]{#3}
+			\caption{#4}
+		\end{subfigure}
+	\end{figure}
+}
+
+\newcommand{\sidebyimglabel}[8]{
+	\begin{figure}[H]
+		\center
+		\begin{subfigure}[b]{0.48\textwidth}
+			\includegraphics[width=\textwidth]{#1}
+			\caption{#2}
+			\label{#3}
+		\end{subfigure}
+		\quad
+		\begin{subfigure}[b]{0.48\textwidth}
+			\includegraphics[width=\textwidth]{#4}
+			\caption{#5}
+			\label{#6}
+		\end{subfigure}
+		\caption{#7}
+		\label{#8}
+	\end{figure}
+}
+
+\newcommand{\threesidebyimg}[9]{
+	\begin{figure}[!htb]
+		\minipage{0.32\textwidth}
+  			\includegraphics[width=\linewidth]{#1}
+  			\caption{\textbf{#2}}\label{fig:#3}
+		\endminipage\hfill
+		\minipage{0.32\textwidth}
+  			\includegraphics[width=\linewidth]{#4}
+  			\caption{\textbf{#5}}\label{fig:#6}
+		\endminipage\hfill
+		\minipage{0.32\textwidth}
+  			\includegraphics[width=\linewidth]{#7}
+  			\caption{\textbf{#8}}\label{fig:#9}
+		\endminipage\hfill
+	\threesidebyimgcontinued
+}
+
+\newcommand{\threesidebyimgcontinued}[1]{
+	\caption{\textbf{#1}}
+	\end{figure}
+}
+
+\newcommand{\blueheader}[1]{
+	\cellcolor{aaublue}\textbf{\color{white}#1}
+}

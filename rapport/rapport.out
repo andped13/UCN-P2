@@ -1,0 +1,20 @@
+\BOOKMARK [0][-]{chapter.1}{Foranalyse}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Indledning}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Line Track}{chapter.1}% 3
+\BOOKMARK [0][-]{chapter.2}{Kravspecifikation}{}% 4
+\BOOKMARK [0][-]{chapter.3}{Hardware}{}% 5
+\BOOKMARK [1][-]{section.3.1}{Hardware Overblik}{chapter.3}% 6
+\BOOKMARK [1][-]{section.3.2}{Sensor}{chapter.3}% 7
+\BOOKMARK [1][-]{section.3.3}{Motor}{chapter.3}% 8
+\BOOKMARK [1][-]{section.3.4}{Test}{chapter.3}% 9
+\BOOKMARK [0][-]{chapter.4}{Software}{}% 10
+\BOOKMARK [1][-]{section.4.1}{Software Overblik}{chapter.4}% 11
+\BOOKMARK [1][-]{section.4.2}{Sensor}{chapter.4}% 12
+\BOOKMARK [1][-]{section.4.3}{Motor}{chapter.4}% 13
+\BOOKMARK [1][-]{section.4.4}{PID regulering}{chapter.4}% 14
+\BOOKMARK [1][-]{section.4.5}{Test}{chapter.4}% 15
+\BOOKMARK [0][-]{chapter.5}{Test}{}% 16
+\BOOKMARK [0][-]{chapter.6}{Konklusion}{}% 17
+\BOOKMARK [0][-]{chapter.7}{Perspektivering}{}% 18
+\BOOKMARK [0][-]{section*.5}{Figurliste}{}% 19
+\BOOKMARK [0][-]{section*.6}{Tabelliste}{}% 20
