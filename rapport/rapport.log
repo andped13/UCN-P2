@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.4)  26 APR 2016 12:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.11)  28 APR 2016 10:52
 entering extended mode
 **./rapport.tex
 (rapport.tex
@@ -464,16 +464,16 @@ Package: placeins 2005/04/18  v 2.2
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\siunitx\siunitx.sty"
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
-Package: expl3 2015/12/20 v6326 L3 programming layer (loader) 
+Package: expl3 2016/01/03 v6358 L3 programming layer (loader) 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
-Package: expl3 2015/12/20 v6326 L3 programming layer (code)
-L3 Module: l3bootstrap 2015/12/15 v6320 L3 Bootstrap code
-L3 Module: l3names 2015/11/16 v6276 L3 Namespace for primitives
+Package: expl3 2016/01/03 v6358 L3 programming layer (code)
+L3 Module: l3bootstrap 2016/01/01 v6339 L3 Bootstrap code
+L3 Module: l3names 2015/12/21 v6328 L3 Namespace for primitives
 L3 Module: l3basics 2015/11/22 v6315 L3 Basic definitions
 L3 Module: l3expan 2015/09/10 v5983 L3 Argument expansion
 L3 Module: l3tl 2015/09/29 v6121 L3 Token lists
-L3 Module: l3str 2015/12/20 v6325 L3 Strings
+L3 Module: l3str 2016/01/03 v6357 L3 Strings
 L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
 L3 Module: l3int 2015/09/25 v6089 L3 Integers
 \c_max_int=\count147
@@ -585,7 +585,7 @@ Package: xparse 2015/12/20 v6326 L3 Experimental document command parser
 \l__xparse_processor_int=\count173
 \l__xparse_v_nesting_int=\count174
 )
-Package: siunitx 2015/12/31 v2.6n A comprehensive (SI) units package
+Package: siunitx 2016/01/05 v2.6o A comprehensive (SI) units package
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
@@ -641,119 +641,119 @@ Package: l3keys2e 2015/12/20 v6326 LaTeX2e option processing using LaTeX3 keys
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareBinaryPrefix with sig. 'mmm' on line 7208.
+. Defining command \DeclareBinaryPrefix with sig. 'mmm' on line 7213.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIPostPower with sig. 'mm' on line 7211.
+. Defining command \DeclareSIPostPower with sig. 'mm' on line 7216.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIPrefix with sig. 'mmm' on line 7214.
+. Defining command \DeclareSIPrefix with sig. 'mmm' on line 7219.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIPrePower with sig. 'mm' on line 7217.
+. Defining command \DeclareSIPrePower with sig. 'mm' on line 7222.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIQualifier with sig. 'mm' on line 7220.
+. Defining command \DeclareSIQualifier with sig. 'mm' on line 7225.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIUnit with sig. 'O{}mm' on line 7223.
+. Defining command \DeclareSIUnit with sig. 'O{}mm' on line 7228.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIUnitWithOptions with sig. 'mmm' on line 7226.
+. Defining command \DeclareSIUnitWithOptions with sig. 'mmm' on line 7231.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ang with sig. 'o>{\SplitArgument {2}{;}}m' on line 7241.
+. Defining command \ang with sig. 'o>{\SplitArgument {2}{;}}m' on line 7246.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \num with sig. 'om' on line 7249.
+. Defining command \num with sig. 'om' on line 7254.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \numlist with sig. 'o>{\SplitList {;}}m' on line 7257.
+. Defining command \numlist with sig. 'o>{\SplitList {;}}m' on line 7262.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \numrange with sig. 'omm' on line 7265.
+. Defining command \numrange with sig. 'omm' on line 7270.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \SIlist with sig. 'o>{\SplitList {;}}mm' on line 7276.
+. Defining command \SIlist with sig. 'o>{\SplitList {;}}mm' on line 7281.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \SIrange with sig. 'ommm' on line 7287.
+. Defining command \SIrange with sig. 'ommm' on line 7292.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \SI with sig. 'omom' on line 7298.
+. Defining command \SI with sig. 'omom' on line 7303.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \sisetup with sig. 'm' on line 7301.
+. Defining command \sisetup with sig. 'm' on line 7306.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \tablenum with sig. 'om' on line 7313.
+. Defining command \tablenum with sig. 'om' on line 7318.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \si with sig. 'om' on line 7324.
+. Defining command \si with sig. 'om' on line 7329.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \__siunitx_bookmark_num:w with sig. 'om' on line 7371.
+. Defining command \__siunitx_bookmark_num:w with sig. 'om' on line 7376.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \__siunitx_bookmark_numrange:w with sig. 'omm' on line
-. 7373.
+. 7378.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \__siunitx_bookmark_SI:w with sig. 'omom' on line 7375.
+. Defining command \__siunitx_bookmark_SI:w with sig. 'omom' on line 7380.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \__siunitx_bookmark_SIlist:w with sig. 'omm' on line 7377.
+. Defining command \__siunitx_bookmark_SIlist:w with sig. 'omm' on line 7382.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \__siunitx_bookmark_SIrange:w with sig. 'ommm' on line
-. 7379.
+. 7384.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \__siunitx_bookmark_si:w with sig. 'om' on line 7380.
+. Defining command \__siunitx_bookmark_si:w with sig. 'om' on line 7385.
 .................................................
 \g__file_internal_ior=\read2
 
@@ -2019,12 +2019,12 @@ Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgfplots\pgfplotstable.sty"
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.revision.tex"
 )
-Package: pgfplotstable 2015/05/02 v1.12.1 Table typesetting and Pretty-printing
- (1.12.1)
+Package: pgfplotstable 2016/01/06 v1.13 Table typesetting and Pretty-printing (
+1.13)
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgfplots\pgfplots.sty"
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.revision.tex"
 )
-Package: pgfplots 2015/05/02 v1.12.1 Data Visualization (1.12.1)
+Package: pgfplots 2016/01/06 v1.13 Data Visualization (1.13)
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.code.tex"
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplotscore.code.tex"
 \t@pgfplots@toka=\toks58
@@ -2041,7 +2041,15 @@ ode.tex")
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplot
 soldpgfsupp_loader.code.tex"
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryfpu.cod
-e.tex"))
+e.tex")
+Package pgfplots: loading complementary arithmetics for your pgf version...
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplot
+soldpgfsupp_pgflibraryfpu.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplot
+soldpgfsupp_pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count443
+))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotsutil.code
 .tex"
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplots
@@ -2050,13 +2058,13 @@ liststructure.code.tex")
 liststructureext.code.tex")
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplots
 array.code.tex"
-\c@pgfplotsarray@tmp=\count443
+\c@pgfplotsarray@tmp=\count444
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplots
 matrix.code.tex")
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\numtable\pgfplotstable
 shared.code.tex"
-\c@pgfplotstable@counta=\count444
+\c@pgfplotstable@counta=\count445
 \t@pgfplotstable@a=\toks61
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplots
@@ -2069,7 +2077,7 @@ ta.code.tex"))
 .code.tex")
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\libs\pgflibrarypgfplot
 s.surfshading.code.tex"
-\c@pgfplotslibrarysurf@no=\count445
+\c@pgfplotslibrarysurf@no=\count446
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\sys\pgflibrarypgfplots
 .surfshading.pgfsys-pdftex.def")))
@@ -2082,7 +2090,9 @@ ode.tex")
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplotsplothandlers.c
 ode.tex"
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplotsmeshplothandle
-r.code.tex"))
+r.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplotsmeshplotimage.
+code.tex")))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.scaling.code.
 tex")
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplotscoordprocessin
@@ -2104,7 +2114,7 @@ s.code.tex"
 \pgfdecoratedinputsegmentcompleteddistance=\dimen363
 \pgfdecoratedinputsegmentremainingdistance=\dimen364
 \pgf@decorate@distancetomove=\dimen365
-\pgf@decorate@repeatstate=\count446
+\pgf@decorate@repeatstate=\count447
 \pgfdecorationsegmentamplitude=\dimen366
 \pgfdecorationsegmentlength=\dimen367
 )
@@ -2118,7 +2128,7 @@ brarydecorations.pathmorphing.code.tex"))
 s\tikzlibrarydecorations.pathreplacing.code.tex"
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgfli
 brarydecorations.pathreplacing.code.tex"))
-\pgfplots@numplots=\count447
+\pgfplots@numplots=\count448
 \pgfplots@xmin@reg=\dimen368
 \pgfplots@xmax@reg=\dimen369
 \pgfplots@ymin@reg=\dimen370
@@ -2182,8 +2192,8 @@ File: english.lbx 2015/12/22 v3.2 biblatex localization (PK/JW/AB)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count448
-\@quotereset=\count449
+\@quotelevel=\count449
+\@quotereset=\count450
 (rapport.aux)
 \openout1 = `rapport.aux'.
 
@@ -2281,19 +2291,19 @@ Dictionary: translator-basic-dictionary, Language: English
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\siunitx\siunitx-abbreviations.cfg
 "
-File: siunitx-abbreviations.cfg 2015/12/31 v2.6n siunitx: Abbreviated units
+File: siunitx-abbreviations.cfg 2016/01/05 v2.6o siunitx: Abbreviated units
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count450
+\scratchcounter=\count451
 \scratchdimen=\dimen376
 \scratchbox=\box94
-\nofMPsegments=\count451
-\nofMParguments=\count452
+\nofMPsegments=\count452
+\nofMParguments=\count453
 \everyMPshowfont=\toks62
-\MPscratchCnt=\count453
+\MPscratchCnt=\count454
 \MPscratchDim=\dimen377
-\MPnumerator=\count454
-\makeMPintoPDFobject=\count455
+\MPnumerator=\count455
+\makeMPintoPDFobject=\count456
 \everyMPtoPDFconversion=\toks63
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -2310,7 +2320,7 @@ LaTeX Info: Redefining \nameref on input line 4.
 \openout8 = `rapport.out'.
 
  ABD: EveryShipout initializing macros
-\c@lstlisting=\count456
+\c@lstlisting=\count457
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -2336,11 +2346,11 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 )
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
-ick labels; missing features). Consider writing \pgfplotsset{compat=1.12} into 
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.13} into 
 your preamble.
  on input line 4.
 
-\c__siunitx_mathsf_int=\count457
+\c__siunitx_mathsf_int=\count458
 LaTeX Font Info:    Try loading font information for U+msa on input line 4.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -2350,7 +2360,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-\c__siunitx_mathtt_int=\count458
+\c__siunitx_mathtt_int=\count459
 
 (lists/glossary.tex) (contents/formalities/frontpage.tex
 <figures/logo-ucn.png, id=86, 250.9375pt x 100.375pt>
@@ -2369,8 +2379,8 @@ Package pdftex.def Info: figures/produkt.png used on input line 23.
 ) [1
 
 
-{C:/Users/Anders/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./figures/
-logo-ucn.png> <./figures/produkt.png>] [2
+{C:/Users/pors_/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./figures/l
+ogo-ucn.png> <./figures/produkt.png>] [2
 
 ]
 (contents/formalities/titleSheet.tex
@@ -2479,10 +2489,10 @@ Package logreq Info: Writing requests to 'rapport.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 64.
  ) 
 Here is how much of TeX's memory you used:
- 56856 strings out of 493634
- 1283350 string characters out of 3141312
- 1849222 words of memory out of 3000000
- 59283 multiletter control sequences out of 15000+200000
+ 57307 strings out of 493634
+ 1300725 string characters out of 3141314
+ 1871416 words of memory out of 3000000
+ 59725 multiletter control sequences out of 15000+200000
  27524 words of font info for 73 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  70i,19n,92p,10390b,1614s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2492,21 +2502,20 @@ st, replaced by a fixed one
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
- <C:\Users\Anders\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
-csl1200.pk> <C:\Users\Anders\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ecbx1728.pk>{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontna
-me/8r.enc} <C:\Users\Anders\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
-c\dpi600\ecbx1200.pk> <C:\Users\Anders\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\Anders\AppData\Local\MiKTeX\2.9\font
-s\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users\Anders\AppData\Local\MiKT
-eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\Anders\AppData
-\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\And
-ers\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C
-:\Users\Anders\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx
-2488.pk> <C:\Users\Anders\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
-dpi600\ecrm2488.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/u
-bkd8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/ubkl8a.pfb
->
+ <C:\Users\pors_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ec
+sl1200.pk> <C:\Users\pors_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
+\dpi600\ecbx1728.pk>{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname
+/8r.enc} <C:\Users\pors_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
+pi600\ecbx1200.pk> <C:\Users\pors_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
+appen\ec\dpi600\ecrm0800.pk> <C:\Users\pors_\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users\pors_\AppData\Local\MiKTeX\2.9
+\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\pors_\AppData\Local\
+MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\pors_\AppD
+ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\
+pors_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> 
+<C:\Users\pors_\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecr
+m2488.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/ubkd8a.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/bookman/ubkl8a.pfb>
 Output written on rapport.pdf (16 pages, 528540 bytes).
 PDF statistics:
  476 PDF objects out of 1000 (max. 8388607)
