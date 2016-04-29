@@ -1,3 +1,13 @@
 \section{Low-Pass filter}
 
-Inde i lys-sensoren sidder der en transistor i en spændingsdeling. Denne transistor kan generere noget høj frekvent støj. Dette filtrers væk med et low-pass filter.
+%Inde i lys-sensoren sidder der en transistor i en spændingsdeling. Denne transistor kan generere noget høj frekvent støj. Dette filtrers væk med et low-pass filter.
+Et low-pass filter er et filter som skærer høje frekvenser væk og tilader DC igennem. Modsat et high-pass filter som skærer DC væk og tillader AC igennem. 
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.6\textwidth]{figures/low_pass_schematic.png}
+\end{figure}
+
+Et low-pass filter kan konsturers med en modstand og en kondensator i serie. Kondensatoren sidder forbundet til stel så den skaber en AC-kortslutning og derved filtrer AC væk fra signalet. Grunden til at lave frekvenser ikke bliver filtrert væk, er færdi kondensatoren har tid til lade op og derved ikke længere fungere som stel fra de frekvenser.
+
+
