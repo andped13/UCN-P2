@@ -8,3 +8,6 @@ Sensoren der anvedes er en "Line Sensor Breakout - QRE1113" fra sparkfun.com. De
 
 For at kunne anvende lyssensoren med en arduino skal der ikke anvendes meget kode. Sensoren sidder i en spændingsdeling og outputtet fra lyssensoren bliver tilkoblet en pin på arudinoen. Så skal der blot foretages en analog måling med ADC'en på arduoen. 
 Dette gøres ved at bruge analogRead() i softwaren.
+
+
+Inde i lys-sensoren sidder der en transistor i en spændingsdeling. Denne transistor kan generere noget høj frekvent støj. Dette filtrers væk med et low-pass filter.
