@@ -6,20 +6,22 @@
 \contentsline {section}{\numberline {1.1}Indledning}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Line Track}{1}{section.1.2}
 \contentsline {chapter}{\chapternumberline {2}Kravspecifikation}{2}{chapter.2}
+\contentsline {subsection}{Generelle krav}{2}{subsection*.5}
+\contentsline {subsection}{Krav til produktet}{2}{subsection*.6}
 \contentsline {chapter}{\chapternumberline {3}Hardware}{3}{chapter.3}
 \contentsline {section}{\numberline {3.1}Hardware Overblik}{3}{section.3.1}
 \contentsline {section}{\numberline {3.2}Sensor}{3}{section.3.2}
-\contentsline {section}{\numberline {3.3}Low-Pass filter}{3}{section.3.3}
-\contentsline {section}{\numberline {3.4}Motor}{3}{section.3.4}
-\contentsline {section}{\numberline {3.5}Test}{3}{section.3.5}
-\contentsline {chapter}{\chapternumberline {4}Software}{4}{chapter.4}
-\contentsline {section}{\numberline {4.1}Software Overblik}{4}{section.4.1}
-\contentsline {section}{\numberline {4.2}Sensor}{4}{section.4.2}
-\contentsline {section}{\numberline {4.3}Motor}{4}{section.4.3}
-\contentsline {section}{\numberline {4.4}PID regulering}{4}{section.4.4}
-\contentsline {section}{\numberline {4.5}Test}{4}{section.4.5}
-\contentsline {chapter}{\chapternumberline {5}Test}{5}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}Konklusion}{6}{chapter.6}
-\contentsline {chapter}{\chapternumberline {7}Perspektivering}{7}{chapter.7}
-\contentsline {chapter}{Figurliste}{8}{section*.6}
-\contentsline {chapter}{Tabelliste}{9}{section*.7}
+\contentsline {section}{\numberline {3.3}Low-Pass filter}{4}{section.3.3}
+\contentsline {section}{\numberline {3.4}Motor}{4}{section.3.4}
+\contentsline {section}{\numberline {3.5}Test}{4}{section.3.5}
+\contentsline {chapter}{\chapternumberline {4}Software}{5}{chapter.4}
+\contentsline {section}{\numberline {4.1}Software Overblik}{5}{section.4.1}
+\contentsline {section}{\numberline {4.2}Sensor}{5}{section.4.2}
+\contentsline {section}{\numberline {4.3}Motor}{5}{section.4.3}
+\contentsline {section}{\numberline {4.4}PID regulering}{5}{section.4.4}
+\contentsline {section}{\numberline {4.5}Test}{5}{section.4.5}
+\contentsline {chapter}{\chapternumberline {5}Test}{6}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}Konklusion}{7}{chapter.6}
+\contentsline {chapter}{\chapternumberline {7}Perspektivering}{8}{chapter.7}
+\contentsline {chapter}{Figurliste}{9}{section*.11}
+\contentsline {chapter}{Tabelliste}{10}{section*.12}
