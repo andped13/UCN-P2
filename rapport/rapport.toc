@@ -12,16 +12,16 @@
 \contentsline {section}{\numberline {3.1}Hardware Overblik}{3}{section.3.1}
 \contentsline {section}{\numberline {3.2}Sensor}{3}{section.3.2}
 \contentsline {section}{\numberline {3.3}Low-Pass filter}{4}{section.3.3}
-\contentsline {section}{\numberline {3.4}Motor}{4}{section.3.4}
-\contentsline {section}{\numberline {3.5}Test}{4}{section.3.5}
-\contentsline {chapter}{\chapternumberline {4}Software}{5}{chapter.4}
-\contentsline {section}{\numberline {4.1}Software Overblik}{5}{section.4.1}
-\contentsline {section}{\numberline {4.2}Sensor}{5}{section.4.2}
-\contentsline {section}{\numberline {4.3}Motor}{5}{section.4.3}
-\contentsline {section}{\numberline {4.4}PID regulering}{5}{section.4.4}
-\contentsline {section}{\numberline {4.5}Test}{5}{section.4.5}
-\contentsline {chapter}{\chapternumberline {5}Test}{6}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}Konklusion}{7}{chapter.6}
-\contentsline {chapter}{\chapternumberline {7}Perspektivering}{8}{chapter.7}
-\contentsline {chapter}{Figurliste}{9}{section*.11}
-\contentsline {chapter}{Tabelliste}{10}{section*.12}
+\contentsline {section}{\numberline {3.4}Motor}{5}{section.3.4}
+\contentsline {section}{\numberline {3.5}Test}{5}{section.3.5}
+\contentsline {chapter}{\chapternumberline {4}Software}{6}{chapter.4}
+\contentsline {section}{\numberline {4.1}Software Overblik}{6}{section.4.1}
+\contentsline {section}{\numberline {4.2}Sensor}{6}{section.4.2}
+\contentsline {section}{\numberline {4.3}Motor}{6}{section.4.3}
+\contentsline {section}{\numberline {4.4}PID regulering}{6}{section.4.4}
+\contentsline {section}{\numberline {4.5}Test}{6}{section.4.5}
+\contentsline {chapter}{\chapternumberline {5}Test}{7}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}Konklusion}{8}{chapter.6}
+\contentsline {chapter}{\chapternumberline {7}Perspektivering}{9}{chapter.7}
+\contentsline {chapter}{Figurliste}{10}{section*.11}
+\contentsline {chapter}{Tabelliste}{11}{section*.12}
