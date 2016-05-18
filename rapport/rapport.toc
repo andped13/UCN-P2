@@ -24,5 +24,4 @@
 \contentsline {chapter}{\chapternumberline {5}Test}{9}{chapter.5}
 \contentsline {chapter}{\chapternumberline {6}Konklusion}{10}{chapter.6}
 \contentsline {chapter}{\chapternumberline {7}Perspektivering}{11}{chapter.7}
-\contentsline {chapter}{Figurliste}{12}{section*.14}
-\contentsline {chapter}{Tabelliste}{13}{section*.15}
+\contentsline {chapter}{Bibliography}{12}{section*.15}
