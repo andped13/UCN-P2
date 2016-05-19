@@ -16,12 +16,13 @@
 \contentsline {section}{\numberline {3.4}Motor}{7}{section.3.4}
 \contentsline {section}{\numberline {3.5}Test}{7}{section.3.5}
 \contentsline {chapter}{\chapternumberline {4}Software}{8}{chapter.4}
-\contentsline {section}{\numberline {4.1}Software Overblik}{8}{section.4.1}
-\contentsline {section}{\numberline {4.2}Arduino kode}{8}{section.4.2}
-\contentsline {subsection}{Test med \IeC {\'e}n sensor}{8}{subsection*.16}
-\contentsline {section}{\numberline {4.3}PID regulering}{8}{section.4.3}
-\contentsline {section}{\numberline {4.4}Test}{8}{section.4.4}
-\contentsline {chapter}{\chapternumberline {5}Test}{10}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}Konklusion}{11}{chapter.6}
-\contentsline {chapter}{\chapternumberline {7}Perspektivering}{12}{chapter.7}
-\contentsline {chapter}{Bibliography}{13}{section*.19}
+\contentsline {section}{\numberline {4.1}Software introduktion}{8}{section.4.1}
+\contentsline {subsection}{Indledende probleml\IeC {\o }sning}{8}{subsection*.14}
+\contentsline {section}{\numberline {4.2}Arduino}{9}{section.4.2}
+\contentsline {subsection}{Test og delkonklussion}{9}{subsection*.17}
+\contentsline {section}{\numberline {4.3}PID regulering}{10}{section.4.3}
+\contentsline {section}{\numberline {4.4}Test}{10}{section.4.4}
+\contentsline {chapter}{\chapternumberline {5}Test}{11}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}Konklusion}{12}{chapter.6}
+\contentsline {chapter}{\chapternumberline {7}Perspektivering}{13}{chapter.7}
+\contentsline {chapter}{Bibliography}{14}{section*.20}
