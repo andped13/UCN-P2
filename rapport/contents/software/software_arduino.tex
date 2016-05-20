@@ -3,7 +3,7 @@ Den indledende løsning blev først implementeret på en Arduino Uno mikrocontro
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.6\textwidth]{figures/followLine2.png}
+  \includegraphics[width=1.0\textwidth]{figures/followLine2.png}
   \caption{FollowLine() funktion.}
   \label{follow_line_kode}
 \end{figure}
@@ -20,19 +20,19 @@ Ud fra denne test kan det konkluderes at softwaren virker i henhold til den indl
   \centering
   \includegraphics[width=0.6\textwidth]{figures/testMedEnSensor.png}
   \caption{Den inledende software løsning til linetrackinging med 1 sensor i et superloop.}
-  \label{init_software}
+  \label{indledende_test}
 \end{figure}
 
 \subsection*{Implementering af flere sensore}
 For at robotten er i stand til at kunne følge linjen hurtigst og bedst muligt implementeres ydereligere sensore. Dette gøres for at robotten kan navigere nøjagtigt og præcist. Sensorene er placeret ud fra en skabelon som gruppen har 3D printet for at skabe de bedste omstændigheder muligt for at få så præcise måliner som muligt.
 \newline 
-Her anvendes konceptet vist i figur 1.2 i Line Track.\fxnote{lav reference til line track}.  og softwaren fra den indledende problemløsning ændres nu til at håndtere tre sensore i stedet for én. 
+Her anvendes konceptet vist i figur \ref{line_track} i Line Track. \fxnote{lav reference til line track}. Herfra ændres softwaren fra den indledende problemløsning nu til at håndtere tre sensore i stedet for én. 
 
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.5\textwidth]{figures/lineTrackingFlowchartMultibleSensors.png}
   \caption{Software flowchart over problemløsningen ved hjælp af tre sensore i et superloop.}
-  \label{init_software}
+  \label{flowchart_flere_sensorer}
 \end{figure}
 
 Som det ses i overstående figur ses de fire mulige scenarier som er præsenteret i Line Track. \fxnote{reference til line track}
@@ -43,6 +43,12 @@ Hvis en anden sensor end den midterste afgiver en måling af den opstillede bane
 Såfremt ingen fejlmålinger fra sensoren eller svans stopper robotten fortsætter denne i et superloop.
 
 \subsubsection{Videreudvikling af Arduino kode}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=1.0\textwidth]{figures/treSensoreFollowLine.png}
+  \caption{Software flowchart over problemløsningen ved hjælp af tre sensore i et superloop.}
+  \label{tre_sensore_followline}
+\end{figure}
 
 \fxnote {indsæt her billede af koden med tre sensorer}
 
