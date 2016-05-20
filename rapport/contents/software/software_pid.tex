@@ -1,9 +1,16 @@
 \section{PID regulering}
 For at opnå en mindskning i fejl målingerne fra sensoren, indplementeres en PID controller. En PID controller står for proportional-integral-derivative controller. Formålet med en PID er at man konstant måler en fejl værdi som består af differensen mellem en ønsket værdi og en målt værdi. Controlleren skal forsøge at minimere fejl målingerne mest muligt ved at justerer fejl målingen over tid.\newline
 \newline
-PID controllerens kan opskrives på følgende måde.
+PID controlleren kan opskrives på følgende måde.
 
-u(t) = k_p e(t) + \int_{0}^{t}e(T)dT + K_d\frac{\mathrm{d} e(t)}{\mathrm{d} t}
+\begin{equation} 
+u(t) = K_p e(t) + K_i\int_{0}^{t}e(T)dT + K_d\frac{\mathrm{d} e(t)}{\mathrm{d} t}
+\end{equation}
 
-%(Indsæt ligningen) u(t) = \K{p}e(t) + \K{i} \int_t^0 \! e(T) \, \mathrm{d}T + \K{d}\frac{\mathrm de(t)}{\mathrm d t} 
+hvor, 
 
+\K{p}, er proportional leddet som beskriver den nuværende værdi, hvilket er den ønskede værdi trukket fra den målte værdi. 
+
+\K{i}, er integrale leddet som beskriver den forhændværende værdi, hvilket er  
+
+\K{d} = 
