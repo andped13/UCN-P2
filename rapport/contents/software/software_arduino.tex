@@ -26,7 +26,7 @@ Ud fra denne test kan det konkluderes at softwaren virker i henhold til den indl
 \subsection*{Implementering af flere sensore}
 For at robotten er i stand til at kunne følge linjen hurtigst og bedst muligt implementeres ydereligere sensore. Dette gøres for at robotten kan navigere nøjagtigt og præcist. Sensorene er placeret ud fra en skabelon som gruppen har 3D printet for at skabe de bedste omstændigheder muligt for at få så præcise måliner som muligt.
 \newline 
-Her anvendes konceptet vist i figur \ref{line_track} i Line Track. \fxnote{lav reference til line track}. Herfra ændres softwaren fra den indledende problemløsning nu til at håndtere tre sensore i stedet for én. 
+Her anvendes konceptet vist i figur \ref{line_track} i Line Track. Herfra ændres softwaren fra den indledende problemløsning til at håndtere tre sensore i stedet for én. 
 
 \begin{figure}[h!]
   \centering
@@ -35,7 +35,7 @@ Her anvendes konceptet vist i figur \ref{line_track} i Line Track. \fxnote{lav r
   \label{flowchart_flere_sensorer}
 \end{figure}
 
-Som det ses i overstående figur ses de fire mulige scenarier som er præsenteret i Line Track. \fxnote{reference til line track}
+Som det ses i overstående figur ses de fire mulige scenarier som blev præsenteret i figur \ref{line_track}.
 Som vist i flowchartet registrerer sensorene om stregen er visuel for sensoren eller ej. Såfremt sensoren registrerer en værdi som fortæller om den er på stregen, kører robotten ligeud indtil en anden værdi måles. 
 \newline 
 Hvis en anden sensor end den midterste afgiver en måling af den opstillede bane angiver dette at banens forløb har ændret sig, og robotten anvender derved de to funktioner anvist i flowchartet hvorvidt der skal justeres til venstre eller højre. 
