@@ -22,6 +22,7 @@ Ud fra denne test kan det konkluderes at softwaren virker i henhold til den indl
   \caption{Den inledende software løsning til linetrackinging med 1 sensor i et superloop.}
   \label{indledende_test}
 \end{figure}
+\newpage
 
 \subsection*{Implementering af flere sensore}
 For at robotten er i stand til at kunne følge linjen hurtigst og bedst muligt implementeres ydereligere sensore. Dette gøres for at robotten kan navigere nøjagtigt og præcist. Sensorene er placeret ud fra en skabelon som gruppen har 3D printet for at skabe de bedste omstændigheder muligt for at få så præcise måliner som muligt.
@@ -34,6 +35,7 @@ Her anvendes konceptet vist i figur \ref{line_track} i Line Track. Herfra ændre
   \caption{Software flowchart over problemløsningen ved hjælp af tre sensore i et superloop.}
   \label{flowchart_flere_sensorer}
 \end{figure}
+\newpage
 
 Som det ses i overstående figur ses de fire mulige scenarier som blev præsenteret i figur \ref{line_track}.
 Som vist i flowchartet registrerer sensorene om stregen er visuel for sensoren eller ej. Såfremt sensoren registrerer en værdi som fortæller om den er på stregen, kører robotten ligeud indtil en anden værdi måles. 
@@ -41,6 +43,7 @@ Som vist i flowchartet registrerer sensorene om stregen er visuel for sensoren e
 Hvis en anden sensor end den midterste afgiver en måling af den opstillede bane angiver dette at banens forløb har ændret sig, og robotten anvender derved de to funktioner anvist i flowchartet hvorvidt der skal justeres til venstre eller højre. 
 \newline
 Såfremt ingen fejlmålinger fra sensoren eller svans stopper robotten fortsætter denne i et superloop.
+\newpage
 
 \subsubsection{Videreudvikling af Arduino kode}
 \begin{figure}[h!]
@@ -49,8 +52,7 @@ Såfremt ingen fejlmålinger fra sensoren eller svans stopper robotten fortsætt
   \caption{Software flowchart over problemløsningen ved hjælp af tre sensore i et superloop.}
   \label{tre_sensore_followline}
 \end{figure}
-
-\fxnote {indsæt her billede af koden med tre sensorer}
+\newpage
 
  
 
