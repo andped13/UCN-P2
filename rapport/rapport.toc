@@ -18,11 +18,11 @@
 \contentsline {section}{\numberline {3.6}Test}{7}{section.3.6}
 \contentsline {chapter}{\chapternumberline {4}Software}{8}{chapter.4}
 \contentsline {section}{\numberline {4.1}Software introduktion}{8}{section.4.1}
-\contentsline {subsection}{Indledende probleml\IeC {\o }sning}{8}{subsection*.14}
+\contentsline {subsection}{Indledende probleml\IeC {\o }sning}{8}{subsection*.15}
 \contentsline {section}{\numberline {4.2}Arduino kode med \IeC {\'e}n sensor}{9}{section.4.2}
 \contentsline {section}{\numberline {4.3}Test og delkonklussion}{9}{section.4.3}
 \contentsline {section}{\numberline {4.4}Arduino kode med flere sensore}{11}{section.4.4}
-\contentsline {subsubsection}{Videreudvikling af Arduino kode}{13}{subsubsection*.19}
+\contentsline {subsubsection}{Videreudvikling af Arduino kode}{13}{subsubsection*.20}
 \contentsline {section}{\numberline {4.5}Test og delkonklussion}{14}{section.4.5}
 \contentsline {section}{\numberline {4.6}PID regulering}{14}{section.4.6}
 \contentsline {chapter}{\chapternumberline {5}Embedded}{16}{chapter.5}
@@ -33,5 +33,5 @@
 \contentsline {chapter}{\chapternumberline {6}Test}{17}{chapter.6}
 \contentsline {chapter}{\chapternumberline {7}Konklusion}{18}{chapter.7}
 \contentsline {chapter}{\chapternumberline {8}Perspektivering}{19}{chapter.8}
-\contentsline {chapter}{Bibliography}{20}{section*.23}
+\contentsline {chapter}{Bibliography}{20}{section*.24}
 \contentsline {chapter}{\chapternumberline {9}Appendix}{21}{chapter.9}
