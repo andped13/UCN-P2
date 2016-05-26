@@ -1,20 +1,20 @@
 \section{PID regulering}
-For at opnå en mindskning i fejl målingerne fra sensoren, indplementeres en PID controller. En PID controller står for proportional-integral-derivative controller. Formålet med en PID er at man konstant måler en fejl værdi som består af differensen mellem en ønsket værdi og en målt værdi. Controlleren skal forsøge at minimere fejl målingerne mest muligt ved at justerer fejl målingen over tid.\newline
+For at opnå en mindskning i fejl målingerne fra sensoren, indplementeres en PID controller. En PID controller står for Proportional Integral Derivative controller. Formålet med en PID er at man konstant måler en fejl værdi som består af differensen mellem en ønsket værdi og en målt værdi. Controlleren skal forsøge at minimere fejl målingerne mest muligt ved at justerer fejl målingen over tid.\newline
+\fxnote{indsæt en figur}
 \newline
 PID controlleren kan opskrives på følgende måde.
 
 \begin{equation} 
 u(t) = K_p e(t) + K_i\int_{0}^{t}e(T)dT + K_d\frac{\mathrm{d} e(t)}{\mathrm{d} t}
-\end{equation}
-
-hvor, \fxnote{indsæt kilder}
+\end{equation}\label{PID}
+\newline
+hvor,
 \newline
 $K_{p}$, er proportional leddet som beskriver den nuværende værdi, hvilket er den ønskede værdi trukket fra den målte værdi. 
 \newline
 $K_{i}$, er integrale leddet som beskriver den forhændværende værdi, hvilket betyder at i fejl værdien bliver justreret ind over tid, dette gøres ved hjælp af det ønskede signal i forhold til det givet signal, som drager et areal af hver periode.   
 \newline
-$K_{d}$, er differentiale leddet som beskriver en mulig fremtidig fejl. Dette gøres ved at måle heldningen på det givne signal for så at forsøge at justere det ind efter det ønskede. 
+$K_{d}$, er differentiale leddet som beskriver en mulig fremtidig fejl, som er vuderet ud fra forhændværende værdier. Dette gøres ved at måle heldningen på det givne signal for så at forsøge at justere det ind efter det ønskede. 
 \newline
-PID controlleren ser typisk således ud. 
 
-\fxnote{indsæt en figur}   
+   
