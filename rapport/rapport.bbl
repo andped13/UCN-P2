@@ -1,0 +1,40 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{googlebil}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Google}{G.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{G1}
+  \strng{fullhash}{G1}
+  \field{sortinit}{G}
+  \field{note}{Sidst besoegt 2016-05-06}
+  \field{title}{Link til Google}
+  \verb{url}
+  \verb https://www.google.com/selfdrivingcar/
+  \endverb
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
