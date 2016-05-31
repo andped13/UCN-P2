@@ -1,6 +1,6 @@
 \section{ADC}
 ADC eller A/D converter er en enhed der benyttes til at omdanne et elektrisk analog signal til et digitalt signal som kan viderebearbejdes i software. 
-Den ADC som sidder på PIC32mx250f128b\fxnote{kilde} er en 10 bit ADC, som kan have op til 9 analoge inputs. På UCN boardet er 6 mulige inpits hvoraf gruppen kun anvender 3 til lyssensorerne. 
+Den ADC som sidder på PIC32mx250f128b\fxnote{kilde} er en 10 bit ADC, som kan have op til 9 analoge inputs. På UCN boardet er 6 mulige inputs hvoraf gruppen  anvender 3 af disse til lyssensorerne. 
 
 \begin{figure}[h!]
   \centering
@@ -10,10 +10,8 @@ Den ADC som sidder på PIC32mx250f128b\fxnote{kilde} er en 10 bit ADC, som kan h
 \end{figure} 
 \fxnote{fix figur og kilde}
 %kilde til http://www.microchip.com/wwwproducts/en/PIC32MX250F128B(hashtag)documents
-Den anvendte ADC er implementeret ved hjælp af "ADC reference manual" fra microchip, som er et generekt datablad for nogle af PIC32 processorene. Her er de nødvendige opsætninger som skal foretages for at anvende ADC'en efter den ønskede hensigt.
+Den anvendte ADC er implementeret ved hjælp af ADC reference manualen fra microchip, som er et generelt datablad for PIC32 processorene. Her findes de nødvendige opsætninger som skal foretages for at anvende ADC'en efter den ønskede hensigt.
 \newline
-
-
 
 ADC'en er implementeret ved hjælp af fremgangsmåden anvist i databladet. Her sættes en række registre op efter den ønskede opsætning. 
 
@@ -24,6 +22,21 @@ ADC'en er implementeret ved hjælp af fremgangsmåden anvist i databladet. Her s
   \label{handlingsekvens}
 \end{figure} 
 
-Den angivne sekvens angivet på figur \ref{handlingsekvens}, angiver hvorledes ADC'en operere. 
+Den angivne sekvens viser på figur \ref{handlingsekvens}, hvilken rækkefølge den udfører sine funktioner i. Softwaren gældende for ADC'en er bygget op efter samme princip hvor der først foretages en sampling gennem en positiv målt værdi fra AN0, som er den pin som er tilknyttet vores MUX A(multiplexer). Herfra konverteres den registrerede værdi og tilskriver den digitalt til bufferen. Denne sekvens gør sig gældende for alle 3 sensorer, hvorefter bufferen ændres og et interrupt foretages. 
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=1.1\textwidth]{figures/adcBuffer.png}
+  \caption{Tilskrivning til ADC buffer.}\fxnote{kilde til datablad}
+  \label{adcBuffer}
+\end{figure}
+
+Denne sekvens foretages kontinuerligt af ADC'en, hvor de konverterede målinger skrives til bufferen som vist på figur \ref{adcBuffer}. 
+
+
+
+
+
+
 
 En ADC kan generer noget kaldet "Aliasing" som er kopier af signalet, som bliver genereret ved samplings frekvensen. Dette filtreres væk vha. et low-pass filter.
