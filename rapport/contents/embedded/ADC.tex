@@ -1,6 +1,6 @@
 \section{ADC}
 ADC eller A/D converter er en enhed der benyttes til at omdanne et elektrisk analog signal til et digitalt signal som kan viderebearbejdes i software. 
-Den ADC som sidder på PIC32mx250f128b\fxnote{kilde} er en 10 bit ADC, som kan have op til 9 analoge inputs. På UCN boardet er 6 mulige inputs hvoraf gruppen  anvender 3 af disse til lyssensorerne. 
+Den ADC som sidder på PIC32mx250f128b \cite{pic32mx} er en 10 bit ADC, som kan have op til 9 analoge inputs. På UCN boardet er 6 mulige inputs hvoraf gruppen  anvender 3 af disse til lyssensorerne. 
 
 \begin{figure}[h!]
   \centering
@@ -33,10 +33,4 @@ Den angivne sekvens viser på figur \ref{handlingsekvens}, hvilken rækkefølge 
 
 Denne sekvens foretages kontinuerligt af ADC'en, hvor de konverterede målinger skrives til bufferen som vist på figur \ref{adcBuffer}. 
 
-
-
-
-
-
-
-En ADC kan generer noget kaldet "Aliasing" som er kopier af signalet, som bliver genereret ved samplings frekvensen. Dette filtreres væk vha. et low-pass filter.
+En ADC kan generer noget kaldet "Aliasing" som er kopier af signalet, som bliver genereret ved samplings frekvensen. Dette filtreres væk vha. et low-pass filter\ref{lowPassFilter}.
