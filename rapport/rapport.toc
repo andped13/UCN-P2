@@ -14,22 +14,24 @@
 \contentsline {section}{\numberline {3.2}Mikrocontroller}{5}{section.3.2}
 \contentsline {section}{\numberline {3.3}Sensor}{6}{section.3.3}
 \contentsline {section}{\numberline {3.4}Low-Pass filter}{7}{section.3.4}
-\contentsline {chapter}{\chapternumberline {4}Software}{8}{chapter.4}
-\contentsline {section}{\numberline {4.1}Software introduktion}{8}{section.4.1}
-\contentsline {subsection}{Indledende probleml\IeC {\o }sning}{8}{subsection*.15}
-\contentsline {section}{\numberline {4.2}Arduino kode med \IeC {\'e}n sensor}{9}{section.4.2}
-\contentsline {section}{\numberline {4.3}Test og delkonklussion}{9}{section.4.3}
-\contentsline {section}{\numberline {4.4}Arduino kode med flere sensore}{11}{section.4.4}
+\contentsline {chapter}{\chapternumberline {4}Software}{9}{chapter.4}
+\contentsline {section}{\numberline {4.1}Software introduktion}{9}{section.4.1}
+\contentsline {subsection}{Indledende probleml\IeC {\o }sning}{9}{subsection*.15}
+\contentsline {section}{\numberline {4.2}Arduino kode med \IeC {\'e}n sensor}{10}{section.4.2}
+\contentsline {section}{\numberline {4.3}Test og delkonklussion}{11}{section.4.3}
+\contentsline {section}{\numberline {4.4}Arduino kode med flere sensore}{12}{section.4.4}
 \contentsline {subsubsection}{Videreudvikling af Arduino kode}{13}{subsubsection*.20}
-\contentsline {section}{\numberline {4.5}Test og delkonklussion}{14}{section.4.5}
-\contentsline {section}{\numberline {4.6}PID regulering}{14}{section.4.6}
+\contentsline {section}{\numberline {4.5}PID regulering}{14}{section.4.5}
+\contentsline {section}{\numberline {4.6}Test og delkonklussion}{15}{section.4.6}
 \contentsline {chapter}{\chapternumberline {5}Embedded}{16}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introduktion til embedded systems}{16}{section.5.1}
 \contentsline {section}{\numberline {5.2}ADC}{16}{section.5.2}
-\contentsline {section}{\numberline {5.3}PWM}{16}{section.5.3}
-\contentsline {section}{\numberline {5.4}Line Track}{16}{section.5.4}
-\contentsline {chapter}{\chapternumberline {6}Test}{17}{chapter.6}
-\contentsline {chapter}{\chapternumberline {7}Konklusion}{18}{chapter.7}
-\contentsline {chapter}{\chapternumberline {8}Perspektivering}{19}{chapter.8}
-\contentsline {chapter}{Bibliography}{20}{section*.24}
-\contentsline {chapter}{\chapternumberline {9}Appendix}{21}{chapter.9}
+\contentsline {subsection}{ADC deltest}{18}{subsection*.26}
+\contentsline {section}{\numberline {5.3}PWM}{18}{section.5.3}
+\contentsline {subsection}{Deltest}{18}{subsection*.29}
+\contentsline {section}{\numberline {5.4}Line Track}{18}{section.5.4}
+\contentsline {chapter}{\chapternumberline {6}Test}{19}{chapter.6}
+\contentsline {chapter}{\chapternumberline {7}Konklusion}{20}{chapter.7}
+\contentsline {chapter}{\chapternumberline {8}Perspektivering}{21}{chapter.8}
+\contentsline {chapter}{Bibliography}{22}{section*.31}
+\contentsline {chapter}{\chapternumberline {9}Appendix}{23}{chapter.9}
