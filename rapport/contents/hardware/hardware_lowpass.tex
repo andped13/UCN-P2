@@ -14,7 +14,20 @@ Lave frekvenser filtreres ikke væk, fordi kondensatoren bruger tid til at lade 
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.6\textwidth]{figures/low_pass_cut_off_frequency.png}
+  \includegraphics[width=1.0\textwidth]{figures/low_pass_cut_off_frequency.png}
   \caption{Eksempel på low-pass filter med 1k modstand og 1nF kondensator.}
+  \label{low_pass}
 \end{figure}
-Som det ses på low-pass filteret ovenover\fxnote{find ud af hvordan vi skal referer til figur} hvor frekvenser omkring 1k begynder at blive skåret fra.
+
+På figur \ref{low_pass} ses det hvornår frekvenserne skæres fra ved brug af en 1k modstand i en serie forbindelse med en 1,5 nanofarad kondensator.
+\\
+\\ 
+Cut off frekvensen som er frekvens afskæringen, kan beregnes ved hjælp af følgende formel. 
+\\
+\\
+\begin{equation}
+f_{c}=\frac{1}{2\pi R C }
+\label{lowPassEquation}
+\end{equation}
+\\
+\\
