@@ -34,9 +34,18 @@ Den angivne sekvens viser på figur \ref{handlingsekvens}, hvilken rækkefølge 
 Denne sekvens foretages kontinuerligt af ADC'en, hvor de konverterede målinger skrives til bufferen som vist på figur \ref{adcBuffer}. 
 
 En ADC kan generer noget kaldet "Aliasing" som er kopier af signalet, som bliver genereret ved samplings frekvensen. Dette filtreres væk vha. et low-pass filter\ref{lowPassFilter}.
+\newpage
+\subsection{ADC deltest}
+For at verificere funktionaliteten på ADC'en er en test blevet udført. Testen er udført vha. et FTDI kabel(se figur \ref{ftdi_cable}) som opretter en serial forbindelse på computeren, hvor målte ADC værdier kan skrives til. Derved kan der visuelt bekræftes at ADC'en måler noget som ligger inden for et forventet område.
 
-\subsection{ADC Test}
 
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.5\textwidth]{figures/ftdi_cable.png}
+  \caption{ftdi kabel til oprettelse af serial forbindelse.}
+  \label{ftdi_cable}
+\end{figure} 
+Testen blev udført ved at skrive ADC bufferene ud til den serielle port hvor værdierne blev aflæst.
 
 \begin{figure}[h!]
   \centering
@@ -44,3 +53,5 @@ En ADC kan generer noget kaldet "Aliasing" som er kopier af signalet, som bliver
   \caption{ADC deltest.}
   \label{adcDelTest}
 \end{figure} 
+
+Der blev testet ved at et potentiometer blev tilkoblet de 3 ADC indgange (AN3, AN4, AN5) og der blev drejet fra min til maks. Det blev observeret at den udskrevne værdi gik fra 0 til 1023, hvilket også er opløsningen på ADC'en. Derved må dette må ses som en successfuld test af ADC'en
