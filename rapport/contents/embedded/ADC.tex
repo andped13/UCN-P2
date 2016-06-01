@@ -8,8 +8,7 @@ Den ADC som sidder på PIC32mx250f128b \cite{pic32mx} er en 10 bit ADC, som kan 
   \caption{ADC diagram.\cite{ADC_figur}}
   \label{adcDiagram}
 \end{figure} 
-\fxnote{fix figur og kilde}
-%kilde til http://www.microchip.com/wwwproducts/en/PIC32MX250F128B(hashtag)documents
+
 Den anvendte ADC er implementeret ved hjælp af ADC reference manualen fra microchip, som er et generelt datablad for PIC32 processorene. Her findes de nødvendige opsætninger som skal foretages for at anvende ADC'en efter den ønskede hensigt.
 \newline
 
@@ -21,6 +20,7 @@ ADC'en er implementeret ved hjælp af fremgangsmåden anvist i databladet. Her s
   \caption{Operations sekvens.}
   \label{handlingsekvens}
 \end{figure} 
+\fxnote{kilde til datablad}
 
 Den angivne sekvens viser på figur \ref{handlingsekvens}, hvilken rækkefølge den udfører sine funktioner i. Softwaren gældende for ADC'en er bygget op efter samme princip hvor der først foretages en sampling gennem en positiv målt værdi fra AN0, som er den pin som er tilknyttet vores MUX A(multiplexer). Herfra konverteres den registrerede værdi og tilskriver den digitalt til bufferen. Denne sekvens gør sig gældende for alle 3 sensorer, hvorefter bufferen ændres og et interrupt foretages. 
 
