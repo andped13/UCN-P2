@@ -18,7 +18,7 @@ ADC'en er implementeret ved hjælp af fremgangsmåden anvist i databladet. Her s
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.7\textwidth]{figures/operation_sequence.png}
-  \caption{Operations sekvens.}\fxnote{kilde til datablad, evt lav flow chart istedet for denne figur}
+  \caption{Operations sekvens.}
   \label{handlingsekvens}
 \end{figure} 
 
@@ -36,7 +36,7 @@ Denne sekvens foretages kontinuerligt af ADC'en, hvor de konverterede målinger 
 En ADC kan generer noget kaldet "Aliasing" som er kopier af signalet, som bliver genereret ved samplings frekvensen. Dette filtreres væk vha. et low-pass filter\ref{lowPassFilter}.
 \newpage
 \subsection{ADC deltest}
-For at verificere funktionaliteten på ADC'en er en test blevet udført. Testen er udført vha. et FTDI kabel(se figur \ref{ftdi_cable}) som opretter en serial forbindelse på computeren, hvor målte ADC værdier kan skrives til. Derved kan der visuelt bekræftes at ADC'en måler noget som ligger inden for et forventet område.
+For at verificere funktionaliteten på ADC'en er en test blevet udført. Testen er udført vha. et FTDI kabel(se figur \ref{ftdi_cable}) som opretter en serial forbindelse på computeren hvor målte ADC værdier kan skrives til. Derved kan det visuelt bekræftes at ADC'en måler en værdi som ligger i indenfor den det forventede område for en 10 bit ADC, som er 1024, eller fra 0 til 1023.
 
 
 \begin{figure}[h!]
@@ -45,7 +45,7 @@ For at verificere funktionaliteten på ADC'en er en test blevet udført. Testen 
   \caption{ftdi kabel til oprettelse af serial forbindelse.}
   \label{ftdi_cable}
 \end{figure} 
-Testen blev udført ved at skrive ADC bufferene ud til den serielle port hvor værdierne blev aflæst.
+Testen blev udført ved at skrive ADC bufferene ud til den serielle port hvor værdierne blev aflæst. Der blev ikke taget højde for hvilke analoge pins der var forbundet til hvad, blot at ADC bufferne blev blev skrevet til den serielle port på PC'en.
 
 \begin{figure}[h!]
   \centering
@@ -54,4 +54,6 @@ Testen blev udført ved at skrive ADC bufferene ud til den serielle port hvor v�
   \label{adcDelTest}
 \end{figure} 
 
-Der blev testet ved at et potentiometer blev tilkoblet de 3 ADC indgange (AN3, AN4, AN5) og der blev drejet fra min til maks. Det blev observeret at den udskrevne værdi gik fra 0 til 1023, hvilket også er opløsningen på ADC'en. Derved må dette må ses som en successfuld test af ADC'en
+
+Testen blev foretaget med et potentiometer tilkoblet de 3 ADC indgange (AN3, AN4, AN5) og der blev justeret fra min til maksimum. Det blev observeret at den udskrevne værdi gik fra 0 til 1023, hvilket også er opløsningen på ADC'en. Derved kan det konkluderes at testen var succesfuld for ADC'en.
+
