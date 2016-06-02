@@ -29,7 +29,6 @@
 \contentsline {subsection}{ADC deltest}{18}{subsection*.26}
 \contentsline {section}{\numberline {5.3}PWM}{18}{section.5.3}
 \contentsline {subsection}{Deltest}{18}{subsection*.29}
-\contentsline {section}{\numberline {5.4}Line Track}{18}{section.5.4}
 \contentsline {chapter}{\chapternumberline {6}Test}{19}{chapter.6}
 \contentsline {chapter}{\chapternumberline {7}Konklusion}{20}{chapter.7}
 \contentsline {chapter}{\chapternumberline {8}Perspektivering}{21}{chapter.8}
