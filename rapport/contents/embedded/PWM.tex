@@ -1,3 +1,20 @@
 \section{PWM}
+PWM eller pulsbredde modulation er en måde et firkant signal, hvor tiden signalet er højt kan justeres. Procentdelen hvor signalet er højt, bliver udregnet iforhold til én periode, hvilket er længden imellem 2 frekvenser. Duty cyclen på et PWM signal er mellem 0 og 100\%. F.eks. svare 0\% til at der intet signal er og 50\% svare til at signalet er høj halvdelen af tiden. Dvs. et PWM signal med en duty cycle på 50\% og en amplityde på 10 V, vil således være et PWM signal på 5 V. Frekvensen på PWM signalet skal blot være tilstrækkelig høj, så belastningen ikke blive påvirket af det svingende signal. 
+\\
+\\
+PWM kan genereres af modulet Output compare på microprocessoren. Da ADC blev konfigureret ved at sætte de enkelte registre, valgte gruppen at prøve at bruge plib eller peripheral library til at opsætte PWM som et alternativ til at opsætte de indivuduelle registre.
+
+Plib er et bibliotek som giver simpel tilgang til hardware funktioner uden at skulle skrive til specifikke registre\fxnote{http://microchip.wikidot.com/harmony:overview-plib}.
+
+
+
+
+
+
+
+% hvad er PWM
+% hvordan vi implementerede
+% evt sammenligning?
+
 
 \subsection{Deltest}
