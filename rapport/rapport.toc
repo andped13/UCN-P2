@@ -32,4 +32,5 @@
 \contentsline {chapter}{\chapternumberline {6}Test}{20}{chapter.6}
 \contentsline {chapter}{\chapternumberline {7}Konklusion}{21}{chapter.7}
 \contentsline {chapter}{\chapternumberline {8}Perspektivering}{22}{chapter.8}
-\contentsline {chapter}{\chapternumberline {9}Appendix}{23}{chapter.9}
+\contentsline {chapter}{Bibliography}{23}{section*.31}
+\contentsline {chapter}{\chapternumberline {9}Appendix}{24}{chapter.9}
